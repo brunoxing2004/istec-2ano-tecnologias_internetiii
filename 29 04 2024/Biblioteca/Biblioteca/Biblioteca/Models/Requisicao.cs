@@ -32,5 +32,8 @@ namespace Biblioteca.Models {
             _dataEmissao = DateTime.Now;
             Requisitante = new Leitor();
         }
+
+
+
     }
 }
