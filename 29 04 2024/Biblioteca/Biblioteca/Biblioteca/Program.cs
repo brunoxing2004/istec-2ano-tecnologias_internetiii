@@ -36,6 +36,12 @@ namespace Biblioteca {
             r1.Adicionar(new Livro { Autor = "Alex", Titulo = "IA2.0", NrPaginas = 199 });
             r1.Requisitante = new Leitor { Nome = "Alexandre", NrLeitor = "54321" };
 
+            BM bm1 = new BM();
+            bm1.Nome = "E=MC2";
+            bm1.Adicionar(r1);
+            bm1.Adicionar(r2);
+            Console.WriteLine(bm1.exportar());
+
             //Console.WriteLine(r1.exportar());
 
 
