@@ -1,0 +1,7 @@
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\bin\Debug\Correção_Depósito.exe.config
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\bin\Debug\Correção_Depósito.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\bin\Debug\Correção_Depósito.pdb
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\obj\Debug\Correção_Depósito.csproj.AssemblyReference.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\obj\Debug\Correção_Depósito.csproj.CoreCompileInputs.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\obj\Debug\Correção_Depósito.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\Correção\Correção_Depósito\obj\Debug\Correção_Depósito.pdb

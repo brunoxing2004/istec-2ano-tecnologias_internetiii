@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<header>
+    <title>Exercicio</title>
+</header>
+
+<html>
+<body>
+
+<form>
+    Peso:<input type="number" id="peso"><br>
+    Altura:<input type="number" id="altura"><br>
+    <input type="button" value="Calcular" onclick="javascript:calcularIMC()">
+</form>
+
+<script>
+
+    function calcularIMC(){
+        var peso = document.getElementById("peso");
+        var altura = document.getElementById("altura");
+        var imcValor = peso.value / ( altura.value * altura.value);
+        window.alert("IMC: " + imcValor);
+    }
+</script>
+
+
+
+</body>
+</html>

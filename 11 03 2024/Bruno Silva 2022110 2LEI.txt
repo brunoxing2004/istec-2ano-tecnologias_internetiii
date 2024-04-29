@@ -1,0 +1,41 @@
+Bruno Emanuel Pereira Pinto Silva nº2022110 2LEI
+
+PARTE TEORICO-PRÁTICA
+
+Grupo I
+1. a)
+2. c)
+3. b)
+4. a)
+5. c)
+6. b)
+
+
+Grupo II
+1. Ele acrescenta ao texto vazio, cada número do cnt com um parágrafo, e adiciona sempre mais 1 valor ao cnt. Isto apenas quando o cnt for abaixo de 10.
+
+2.
+
+3. Alterar o innerText para innerHTML
+
+Grupo III
+<!DOCTYPE html>
+<html>
+<body>
+
+<table>
+  <tr>
+    <td colspan="2">a</td>
+    <td colspan="3">b</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+PARTE LABORATORIAL
+1. um sistema capaz de efetuar a gestão da documentação, revisão e versionamento de código num projeto. Exemplo é o GitHub.
+
+2. id, nome, dataEnvio, dataCriado, tag, userEnvio, categoria
+

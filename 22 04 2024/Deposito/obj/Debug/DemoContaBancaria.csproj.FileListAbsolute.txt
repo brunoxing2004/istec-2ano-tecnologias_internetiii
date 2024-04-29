@@ -1,0 +1,14 @@
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\bin\Debug\DemoContaBancaria.exe.config
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\bin\Debug\DemoContaBancaria.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\bin\Debug\DemoContaBancaria.pdb
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\obj\Debug\DemoContaBancaria.csproj.AssemblyReference.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\obj\Debug\DemoContaBancaria.csproj.CoreCompileInputs.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\obj\Debug\DemoContaBancaria.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\DemoContaBancaria\obj\Debug\DemoContaBancaria.pdb
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\bin\Debug\DemoContaBancaria.exe.config
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\bin\Debug\DemoContaBancaria.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\bin\Debug\DemoContaBancaria.pdb
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\obj\Debug\DemoContaBancaria.csproj.AssemblyReference.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\obj\Debug\DemoContaBancaria.csproj.CoreCompileInputs.cache
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\obj\Debug\DemoContaBancaria.exe
+U:\My Drive\ISTEC\2º ano\Tecnologias da Internet III\22 04 2024\Deposito\obj\Debug\DemoContaBancaria.pdb

@@ -1,0 +1,33 @@
+.TabelaContentor{
+    border-style: double;
+    border-color: red;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.CelulaTitulo{
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: small;
+    font-weight: 700;
+    background-color: #FF3300;
+}
+
+.itensLI{
+    font-family: Tahoma;
+    font-size: small;
+}
+
+.CelulaFigura{
+    width: 90px;
+}
+
+.CelulaDescricao{
+    font-family: Arial;
+    font-size: small;
+    text-align: justify;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-weight: bold;
+}

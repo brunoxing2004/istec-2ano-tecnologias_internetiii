@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<header>
+    <title>Exercicio</title>
+</header>
+
+<html>
+<body>
+
+<img id="imagem1" src="https://as2.ftcdn.net/v2/jpg/00/83/95/55/1000_F_83955554_GJkpFVDvAhZ0A4TYjjZYU2zq5fflL3dS.jpg" 
+onmouseover="javascript:alterarImagem();"
+onmouseout="javascript:reporImagem();"
+>
+
+<script>
+    function alterarImagem(){
+        var idImagem = document.getElementById("imagem1");
+        idImagem.src = "https://as2.ftcdn.net/v2/jpg/01/41/99/43/1000_F_141994384_ogVTgERe4opLQCROTbDNFi8cN59mFs3u.jpg"
+    }
+
+    function reporImagem(){
+        var idImagem = document.getElementById("imagem1");
+        idImagem.src = "https://as2.ftcdn.net/v2/jpg/00/83/95/55/1000_F_83955554_GJkpFVDvAhZ0A4TYjjZYU2zq5fflL3dS.jpg"
+    }
+</script>
+
+<img id="imagem2" src="https://practicebusiness.co.uk/wp-content/uploads/2023/08/iStock-1124532572.jpg" 
+onmouseover="this.src='https://cdn2.iconfinder.com/data/icons/picons-basic-1/57/basic1-120_smiley_sad-512.png';"
+onmouseout="this.src='https://practicebusiness.co.uk/wp-content/uploads/2023/08/iStock-1124532572.jpg';"
+>
+
+</body>
+</html>
