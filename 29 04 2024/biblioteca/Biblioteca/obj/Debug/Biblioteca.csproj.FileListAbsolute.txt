@@ -1,0 +1,7 @@
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb

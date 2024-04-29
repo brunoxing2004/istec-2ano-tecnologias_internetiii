@@ -17,7 +17,7 @@ namespace Biblioteca.Models
             set
             {
                 _nrPaginas = value;
-                if (NrPaginas > 0) NrPaginas = 1;
+                if (_nrPaginas > 0) _nrPaginas = 1;
             }
         }
 
