@@ -1,0 +1,7 @@
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\bin\Debug\DemoContaBancaria.exe.config
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\bin\Debug\DemoContaBancaria.exe
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\bin\Debug\DemoContaBancaria.pdb
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\obj\Debug\DemoContaBancaria.csproj.AssemblyReference.cache
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\obj\Debug\DemoContaBancaria.csproj.CoreCompileInputs.cache
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\obj\Debug\DemoContaBancaria.exe
+C:\Users\jr.CESAE-DOM\source\repos\DemoContaBancaria\DemoContaBancaria\obj\Debug\DemoContaBancaria.pdb

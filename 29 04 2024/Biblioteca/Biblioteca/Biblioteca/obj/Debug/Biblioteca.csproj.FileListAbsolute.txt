@@ -1,0 +1,7 @@
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\jr.CESAE-DOM\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
