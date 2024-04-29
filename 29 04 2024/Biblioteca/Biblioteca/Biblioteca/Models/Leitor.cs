@@ -10,6 +10,6 @@ namespace Biblioteca.Models {
         private string _nrLeitor;
 
         //RN1: _nome < 3 caracteres --» "Anónimo"
-        //RN2: 
+        //RN2
     }
 }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\requisicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\requisicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BM.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\BM.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\BM.cs",
@@ -55,32 +55,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Requisicao.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Requisicao.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Requisicao.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Requisicao.cs",
               "RelativeToolTip": "Biblioteca\\Models\\Requisicao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAA3wCAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:18:34.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Leitor.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Leitor.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Leitor.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Leitor.cs",
               "RelativeToolTip": "Biblioteca\\Models\\Leitor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T18:18:15.995Z"
+              "WhenOpened": "2024-04-29T18:18:15.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CD.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\CD.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\CD.cs",
@@ -93,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Livro.cs",
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Conteudo.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Conteudo.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Conteudo.cs",
@@ -119,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Program.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Program.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Program.cs",
               "RelativeToolTip": "Biblioteca\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAPAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwBgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:15:59.106Z",
               "EditorCaption": ""
