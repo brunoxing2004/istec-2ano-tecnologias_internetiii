@@ -33,7 +33,18 @@ namespace Biblioteca.Models {
             Requisitante = new Leitor();
         }
 
-
+        public string exportar()
+        {
+            string resultado = $"<dataemissao>{DataEmissao}</dataemissao>";
+            resultado += $"<leitor>{Requisitante.exportar()}</leitor>";
+            resultado += "<requisicao>";
+            foreach(Conteudo c in _lstConteudo)
+            {
+                resultado += c.exportar();
+            }
+            resultado += "</requisicao>";
+            return resultado;
+        }
 
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\requisicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\requisicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7222D6F6-7CC9-4FA0-B90C-55BB9F9BD324}|Biblioteca\\Biblioteca.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\biblioteca\\biblioteca\\biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -55,26 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Requisicao.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Requisicao.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Requisicao.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Requisicao.cs",
               "RelativeToolTip": "Biblioteca\\Models\\Requisicao.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA3wCAAAAAoAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAA3wCYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:18:34.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Leitor.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Leitor.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Models\\Leitor.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Leitor.cs",
               "RelativeToolTip": "Biblioteca\\Models\\Leitor.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAiwCwAAAA7AAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwCwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:18:15.995Z",
               "EditorCaption": ""
