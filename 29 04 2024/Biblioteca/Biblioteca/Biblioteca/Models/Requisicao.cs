@@ -35,14 +35,14 @@ namespace Biblioteca.Models {
 
         public string exportar()
         {
-            string resultado = $"<dataemissao>{DataEmissao}</dataemissao>";
-            resultado += $"<leitor>{Requisitante.exportar()}</leitor>";
-            resultado += "<requisicao>";
+            string resultado = $"<dataemissao>{DataEmissao}</dataemissao>\n";
+            resultado += $"<leitor>\n{Requisitante.exportar()}\n</leitor>";
+            resultado += "\n<requisicao>\n";
             foreach(Conteudo c in _lstConteudo)
             {
                 resultado += c.exportar();
             }
-            resultado += "</requisicao>";
+            resultado += "\n</requisicao>";
             return resultado;
         }
 

@@ -28,7 +28,9 @@ namespace Biblioteca {
             r1.Adicionar(cd1);
             r1.Adicionar(l1);
             r1.Adicionar(new Livro { Autor = "Maria", Titulo = "IA", NrPaginas = 1000 });
+            r1.Requisitante = new Leitor { Nome = "Ximenes Leitor", NrLeitor = "12345" };
 
+            Console.WriteLine(r1.exportar());
 
             Console.ReadKey();
         
