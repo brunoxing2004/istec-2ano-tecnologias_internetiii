@@ -1,0 +1,3 @@
+O museu do carro eletrico tem exposiçoes tematicas que podem ser de dois tipos: Pintura ou Maquetes.
+Os visitantes adquirem bilhetes p/ cada exposiçao
+Os visitantes podem ser estudantes ou adultos
