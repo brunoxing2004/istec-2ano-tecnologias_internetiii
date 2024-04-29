@@ -32,7 +32,7 @@ namespace Biblioteca.Models
             Autor = "";
         }
 
-        public string exportar()
+        public virtual string exportar()
         {
             return $"<titulo>{Titulo}</titulo><autor>{Autor}</titulo>";
         }
