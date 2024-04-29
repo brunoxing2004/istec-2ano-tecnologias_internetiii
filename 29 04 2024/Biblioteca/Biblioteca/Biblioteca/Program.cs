@@ -27,10 +27,18 @@ namespace Biblioteca {
             Requisicao r1 = new Requisicao();
             r1.Adicionar(cd1);
             r1.Adicionar(l1);
-            r1.Adicionar(new Livro { Autor = "Maria", Titulo = "IA", NrPaginas = 1000 });
+            r1.Adicionar(new Livro { Autor = "Maria", Titulo = "IAGPT", NrPaginas = 1000 });
             r1.Requisitante = new Leitor { Nome = "Ximenes Leitor", NrLeitor = "12345" };
 
-            Console.WriteLine(r1.exportar());
+            Requisicao r2 = new Requisicao();
+            r1.Adicionar(cd1);
+            r1.Adicionar(l1);
+            r1.Adicionar(new Livro { Autor = "Alex", Titulo = "IA2.0", NrPaginas = 199 });
+            r1.Requisitante = new Leitor { Nome = "Alexandre", NrLeitor = "54321" };
+
+            //Console.WriteLine(r1.exportar());
+
+
 
             Console.ReadKey();
         
