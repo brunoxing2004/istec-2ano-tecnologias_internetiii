@@ -11,7 +11,6 @@ namespace MuseuCE.Models
         private string _nome;
         private string _autor;
 
-
         //RN1: titulo se < 2 caracteres --» "Exposição do Museu"
         //RN2: auitor se < 2 caracteres --» "Autor desconhecido"
 
@@ -34,7 +33,7 @@ namespace MuseuCE.Models
                 if (_autor.Length < 2) _autor = "Autor desconhecido";
             }
         }
-
+        
         public Exposicao()
         {
             Nome = "";

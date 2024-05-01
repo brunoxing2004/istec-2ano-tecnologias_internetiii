@@ -10,9 +10,11 @@ namespace MuseuCE.Models
     {
         private string _nome;
         private string _id;
+        private int _tipo;
 
         //RN1: _nome < 2 caracteres --» "Visitante"
         //RN2: _id < 6 caracteres --» "******"
+        //RN3: se tipo = 0, adulto, se = 1, estudante, se diferente 0 ou 1, coloca zero
 
         public string Nome
         {
@@ -34,15 +36,26 @@ namespace MuseuCE.Models
             }
         }
 
+        public string Tipo
+        {
+            get { return Convert.ToString(_tipo); }
+            set
+            {
+                _tipo = Convert.ToInt32(value.Trim());
+                if (_tipo != 1 || _tipo != 0) _tipo = 0;
+            }
+        }
+
         public Visitante()
         {
             Nome = "";
             Id = "";
+            Tipo = "0";
         }
 
         public string exportar()
         {
-            return $"<nome>{Nome}</nome><idvisitante>{Id}</idvisitante>";
+            return $"<nome>{Nome}</nome><idvisitante>{Id}</idvisitante><tipo>{Tipo}</tipo>";
         }
     }
 }
