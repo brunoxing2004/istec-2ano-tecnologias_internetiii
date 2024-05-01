@@ -52,7 +52,14 @@ namespace MuseuCE.Models
         {
             string export = $"<databilhete>{DataBilhete}</databilhete>\n";
             export += $"<visitante>\n{Visita.exportar()}\n</visitante>";
-            export += 
+            export += $"\n<visitante>\n";
+            foreach(Exposicao exp in _lstExposicao)
+            {
+                export += exp.exportar();
+            }
+            export += $"\n</visitante>";
+            export += $"<preco>{Preco}</preco>";
+            return export;
         }
     }
 }
