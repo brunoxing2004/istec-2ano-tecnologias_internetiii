@@ -41,7 +41,7 @@ namespace MuseuCE.Models
             Autor = "";
         }
 
-        public string exportar()
+        public virtual string exportar()
         {
             return $"<exposicao>{Nome}</exposicao><autor>{Autor}</autor>";
         }

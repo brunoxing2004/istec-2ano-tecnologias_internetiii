@@ -13,7 +13,24 @@ namespace MuseuCE.Models
 
         public string Classificacao
         {
-            get
+            get { return _classificacao; }
+            set
+            {
+                _classificacao = value.Trim();
+                if (_classificacao != "1" || _classificacao != "2" || _classificacao != "3" || _classificacao != "4" || _classificacao != "5") _classificacao = "Classificação Pendente";
+            }
+        }
+
+        public Pintura() : base()
+        {
+            Classificacao = "";
+        }
+
+        public override string exportar()
+        {
+            string export = base.exportar();
+            export += $"<classificacao>{Classificacao}</classificacao>";
+            return export;
         }
     }
 }
