@@ -55,7 +55,7 @@ namespace MuseuCE.Models
 
         public string exportar()
         {
-            return $"<nome>{Nome}</nome><idvisitante>{Id}</idvisitante><tipo>{Tipo}</tipo>";
+            return $"<nomevisitante>{Nome}</nomevisitante>\n<idvisitante>{Id}</idvisitante>\n<tipo>{Tipo}</tipo>\n";
         }
     }
 }

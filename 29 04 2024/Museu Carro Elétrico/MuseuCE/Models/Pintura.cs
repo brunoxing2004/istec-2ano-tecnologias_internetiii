@@ -29,7 +29,7 @@ namespace MuseuCE.Models
         public override string exportar()
         {
             string export = base.exportar();
-            export += $"<classificacao>{Classificacao}</classificacao>";
+            export += $"<classificacao>{Classificacao}</classificacao>\n";
             return export;
         }
     }

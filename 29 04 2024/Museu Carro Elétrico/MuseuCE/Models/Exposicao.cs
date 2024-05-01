@@ -42,7 +42,7 @@ namespace MuseuCE.Models
 
         public virtual string exportar()
         {
-            return $"<exposicao>{Nome}</exposicao><autor>{Autor}</autor>";
+            return $"<exposicao>{Nome}</exposicao>\n<autor>{Autor}</autor>\n";
         }
     }
 }

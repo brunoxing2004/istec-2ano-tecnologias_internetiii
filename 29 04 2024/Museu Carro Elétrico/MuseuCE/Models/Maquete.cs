@@ -28,7 +28,7 @@ namespace MuseuCE.Models
         public override string exportar()
         {
             string export = base.exportar();
-            export += $"<tipomaquete>{Tipo}</tipomaquete>";
+            export += $"<tipomaquete>{Tipo}</tipomaquete>\n";
             return export;
         }
     }
