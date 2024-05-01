@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\visitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\visitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\pintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\pintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\museuce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\museuce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\maquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\maquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\exposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\exposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\models\\bilhete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:models\\bilhete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\29 04 2024\\museu carro el\u00E9trico\\museuce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBAF794-CB94-4FBA-B721-8C2729FE779D}|MuseuCE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Maquete.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Maquete.cs",
+              "RelativeDocumentMoniker": "Models\\Maquete.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Maquete.cs",
+              "RelativeToolTip": "Models\\Maquete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:54.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pintura.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Pintura.cs",
+              "RelativeDocumentMoniker": "Models\\Pintura.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Pintura.cs",
+              "RelativeToolTip": "Models\\Pintura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:49.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Visitante.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Visitante.cs",
+              "RelativeDocumentMoniker": "Models\\Visitante.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Visitante.cs",
+              "RelativeToolTip": "Models\\Visitante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:43.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exposicao.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Exposicao.cs",
+              "RelativeDocumentMoniker": "Models\\Exposicao.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Exposicao.cs",
+              "RelativeToolTip": "Models\\Exposicao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:33.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bilhete.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Bilhete.cs",
+              "RelativeDocumentMoniker": "Models\\Bilhete.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\Bilhete.cs",
+              "RelativeToolTip": "Models\\Bilhete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:26.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MuseuCE.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\MuseuCE.cs",
+              "RelativeDocumentMoniker": "Models\\MuseuCE.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Models\\MuseuCE.cs",
+              "RelativeToolTip": "Models\\MuseuCE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:01:18.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\29 04 2024\\Museu Carro El\u00E9trico\\MuseuCE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:00:39.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
