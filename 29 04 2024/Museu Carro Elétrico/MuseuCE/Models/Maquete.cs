@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MuseuCE.Models
 {
-    public class Maquete
+    public class Maquete : Exposicao
     {
+
     }
 }
