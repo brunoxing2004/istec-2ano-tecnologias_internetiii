@@ -36,7 +36,7 @@ namespace MuseuCE.Models
             set
             {
                 _preco = Convert.ToInt32(value);
-                if (_preco < 0) _preco = _precoPadrao;
+                if (_preco <= 0) _preco = _precoPadrao;
             }
         }
 
@@ -46,6 +46,7 @@ namespace MuseuCE.Models
             _dataBilhete = DateTime.Now;
             Visita = new Visitante();
             Preco = "0";
+            _precoPadrao = 0;
         }
 
         public string exportar()
