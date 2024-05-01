@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MuseuCE.Models
 {
-    public class MuseuCE
+    public class Museu
     {
         private List<Bilhete> _lstBilhete;
         private string _nome;
@@ -17,7 +17,7 @@ namespace MuseuCE.Models
             get { return _nome; }
         }
 
-        public MuseuCE()
+        public Museu()
         {
             _nome = "Museu Carro Elétrico";
             _lstBilhete = new List<Bilhete>();

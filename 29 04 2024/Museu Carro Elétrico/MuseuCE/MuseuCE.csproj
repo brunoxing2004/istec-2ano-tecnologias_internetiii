@@ -46,7 +46,7 @@
     <Compile Include="Models\Bilhete.cs" />
     <Compile Include="Models\Exposicao.cs" />
     <Compile Include="Models\Maquete.cs" />
-    <Compile Include="Models\MuseuCE.cs" />
+    <Compile Include="Models\Museu.cs" />
     <Compile Include="Models\Pintura.cs" />
     <Compile Include="Models\Visitante.cs" />
     <Compile Include="Program.cs" />
