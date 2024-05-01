@@ -8,5 +8,6 @@ namespace MuseuCE.Models
 {
     public class Bilhete : Exposicao
     {
+
     }
 }

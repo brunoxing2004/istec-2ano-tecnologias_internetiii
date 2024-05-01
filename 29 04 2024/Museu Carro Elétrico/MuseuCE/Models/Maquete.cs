@@ -9,7 +9,7 @@ namespace MuseuCE.Models
     public class Maquete : Exposicao
     {
         private string _tipo;
-        //RN1: tipo < 2 --» "Classificação de tipo pendente"
+        //RN1: tipo < 2 caracteres --» "Classificação de tipo pendente"
         public string Tipo
         {
             get { return _tipo; }
