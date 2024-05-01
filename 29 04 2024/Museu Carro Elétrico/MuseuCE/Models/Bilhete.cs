@@ -63,5 +63,3 @@ namespace MuseuCE.Models
         }
     }
 }
-
-< preco >{ Preco}</ preco >
