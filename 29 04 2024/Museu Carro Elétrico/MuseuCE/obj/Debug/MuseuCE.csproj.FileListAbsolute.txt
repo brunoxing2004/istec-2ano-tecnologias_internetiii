@@ -1,2 +1,7 @@
 E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\obj\Debug\MuseuCE.csproj.AssemblyReference.cache
 E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\obj\Debug\MuseuCE.csproj.CoreCompileInputs.cache
+E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\bin\Debug\MuseuCE.exe.config
+E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\bin\Debug\MuseuCE.exe
+E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\bin\Debug\MuseuCE.pdb
+E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\obj\Debug\MuseuCE.exe
+E:\GitHub\istec-2ano-tecnologias_internetiii\29 04 2024\Museu Carro Elétrico\MuseuCE\obj\Debug\MuseuCE.pdb

@@ -58,7 +58,7 @@ namespace MuseuCE.Models
             {
                 export += exp.exportar();
             }
-            export += $"\n</exposicao>";
+            export += $"\n</exposicao>\n";
             export += $"<preco>{Preco}</preco>\n";
             return export;
         }
