@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+132f62671afac353ec2235cfee694e8ae9a9e6b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f92f0066d1932ce4e15d32e3931f11f5e09d1562")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
