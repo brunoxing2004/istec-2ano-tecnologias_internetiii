@@ -8,7 +8,12 @@ internal class Program
 
         var app = builder.Build();
 
-        app.MapGet("/", () => "Olá turma!");
+        //app.MapGet("/", () => "Olá turma!");
+
+        app.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}"
+        );
 
         app.Run();
     }

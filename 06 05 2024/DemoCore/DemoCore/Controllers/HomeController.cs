@@ -4,9 +4,15 @@ namespace DemoCore.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
+
+        public string Index()
         {
-            return View();
+            return "Bom apetite";
         }
+
     }
 }
