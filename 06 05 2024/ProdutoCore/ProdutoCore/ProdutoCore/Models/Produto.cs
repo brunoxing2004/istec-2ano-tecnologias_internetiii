@@ -2,9 +2,9 @@
 {
     public class Produto
     {
-        private string _id;
+        private Guid _id;
         private string _nome;
-        public string _stock;
+        private decimal _stock;
 
         public string Nome
         {
@@ -16,6 +16,26 @@
             }
         }
 
-        public string 
+        public decimal Stock
+        {
+            get { return _stock; }
+            set
+            {
+                _stock = value;
+                if (_stock < 0) _stock = 0;
+            }
+        }
+
+        public Guid Id
+        {
+            get { return _id; }
+        }
+
+        public Produto()
+        {
+            _id = Guid.NewGuid();
+            Nome = "";
+            Stock = 0;
+        }
     }
 }

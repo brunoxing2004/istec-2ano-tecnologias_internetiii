@@ -219,3 +219,5 @@ C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 20
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 2024\ProdutoCore\ProdutoCore\ProdutoCore\obj\Debug\net8.0\ProdutoCore.pdb
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 2024\ProdutoCore\ProdutoCore\ProdutoCore\obj\Debug\net8.0\ProdutoCore.genruntimeconfig.cache
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 2024\ProdutoCore\ProdutoCore\ProdutoCore\obj\Debug\net8.0\ref\ProdutoCore.dll
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 2024\ProdutoCore\ProdutoCore\ProdutoCore\obj\Debug\net8.0\ProdutoCore.RazorAssemblyInfo.cache
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\06 05 2024\ProdutoCore\ProdutoCore\ProdutoCore\obj\Debug\net8.0\ProdutoCore.RazorAssemblyInfo.cs
