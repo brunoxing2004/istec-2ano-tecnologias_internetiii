@@ -10,16 +10,16 @@ namespace DemoCore.Controllers
     {
 
 
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
-
-
-        public string Index()
+        public IActionResult Index()
         {
-            return "Finalmente";
+            return View();
         }
+
+
+        //public string Index()
+        //{
+        //    return "Finalmente";
+        //}
 
         public string GetJson()
         {
