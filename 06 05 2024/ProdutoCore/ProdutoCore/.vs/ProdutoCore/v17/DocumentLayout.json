@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\06 05 2024\\produtocore\\produtocore\\produtocore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|solutionrelative:produtocore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\06 05 2024\\produtocore\\produtocore\\produtocore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|solutionrelative:produtocore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\06 05 2024\\produtocore\\produtocore\\produtocore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|solutionrelative:produtocore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\06 05 2024\\produtocore\\produtocore\\produtocore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E40C8AD-A7D0-409C-9329-39163517CBEA}|ProdutoCore\\ProdutoCore.csproj|solutionrelative:produtocore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\ProdutoCore\\Program.cs",
               "RelativeDocumentMoniker": "ProdutoCore\\Program.cs",
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\ProdutoCore\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "ProdutoCore\\Models\\Produto.cs",
@@ -57,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\ProdutoCore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProdutoCore\\Views\\Home\\Index.cshtml",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\ProdutoCore\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "ProdutoCore\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\ProdutoCore\\ProdutoCore\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "ProdutoCore\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCAAAAA4AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T20:31:41.195Z",
               "EditorCaption": ""
