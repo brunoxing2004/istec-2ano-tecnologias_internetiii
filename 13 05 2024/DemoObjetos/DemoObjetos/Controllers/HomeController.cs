@@ -6,18 +6,30 @@ namespace DemoObjetos.Controllers
     public class HomeController : Controller
     {
 
-        public IActionResult Index()
+        public IActionResult index()
         {
+
             return View();
+
         }
 
-        public IActionResult IndexXPto(string id)
+        public IActionResult GetDoc()
         {
-            //return View();
-            //return Content ($"Enviou valores: {id}");
-
-            return new UpperMeResult("esTE tExto mALuço");
-
+            Documento doc = new Documento()
+            {
+                Titulo = "Fatura da Eletrecidade",
+                Resumo = "Tenho de Comprar Lampadas class A",
+                Estado = true,
+            };
+            return View(doc);
         }
+
+        //public IActionResult IndexXPTO(string id)
+        //{
+
+        //    //return Content ($"O seu valor é: {id}!");
+        //    return new UpperMeResult("ESte TExto Malucã");
+
+        //}
     }
 }
