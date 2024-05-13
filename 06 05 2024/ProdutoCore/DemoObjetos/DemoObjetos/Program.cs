@@ -8,7 +8,7 @@ internal class Program
         //app.MapGet("/", () => "Olá Turma de TI-III!");
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}"
+            pattern: "{controller=Home}/{action=Index}/{x?}/{y?}/{z?}"
         );
         app.Run();
     }
