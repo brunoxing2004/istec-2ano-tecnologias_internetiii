@@ -5,7 +5,13 @@ namespace DemoObjetos.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(string id)
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult IndexXPto(string id)
         {
             //return View();
             //return Content ($"Enviou valores: {id}");
