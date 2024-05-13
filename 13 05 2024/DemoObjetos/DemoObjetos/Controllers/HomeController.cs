@@ -15,13 +15,24 @@ namespace DemoObjetos.Controllers
 
         public IActionResult GetDoc()
         {
-            Documento doc = new Documento()
+            Documento documento = new Documento()
             {
                 Titulo = "Fatura da Eletrecidade",
                 Resumo = "Tenho de Comprar Lampadas class A",
                 Estado = true,
             };
-            return View(doc);
+            return View(documento);
+        }
+
+        public IActionResult GetProduto()
+        {
+            Produto produto = new Produto()
+            {
+                Nome = "Massa",
+                Pv = 5,
+                Stock = 100,
+            };
+            return View(produto);
         }
 
         //public IActionResult IndexXPTO(string id)

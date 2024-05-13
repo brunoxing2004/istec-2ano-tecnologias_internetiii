@@ -9,7 +9,7 @@
 
         public Documento()
         {
-            Guid Id = Guid.NewGuid();
+            Id = Guid.NewGuid();
             Titulo = "";
             Resumo = "";
             Estado = true;
