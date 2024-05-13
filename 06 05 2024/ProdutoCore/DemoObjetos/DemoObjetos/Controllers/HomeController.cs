@@ -4,10 +4,10 @@ namespace DemoObjetos.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(int x, int y, int z)
+        public IActionResult Index(int id)
         {
             //return View();
-            return Content ($"Enviou valores: {x} | {y} | {z}");
+            return Content ($"Enviou valores: {id}");
         }
     }
 }
