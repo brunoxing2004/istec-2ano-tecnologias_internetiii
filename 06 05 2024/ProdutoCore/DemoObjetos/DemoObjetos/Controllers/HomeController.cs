@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using DemoObjetos.Models;
 
 namespace DemoObjetos.Controllers
 {
@@ -7,7 +8,10 @@ namespace DemoObjetos.Controllers
         public IActionResult Index(string id)
         {
             //return View();
-            return Content ($"Enviou valores: {id}");
+            //return Content ($"Enviou valores: {id}");
+
+            return new UpperMeResult("esTE tExto mALuço");
+
         }
     }
 }
