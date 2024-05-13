@@ -5695,11 +5695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
+      "projectUniqueName": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\13 05 2024\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
       "projectName": "DemoObjetos",
-      "projectPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
+      "projectPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\13 05 2024\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
       "packagesPath": "C:\\Users\\bruno.escola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\DemoObjetos\\DemoObjetos\\obj\\",
+      "outputPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\13 05 2024\\DemoObjetos\\DemoObjetos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bruno.escola\\AppData\\Roaming\\NuGet\\NuGet.Config",

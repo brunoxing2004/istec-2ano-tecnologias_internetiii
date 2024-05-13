@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7+WNatFua1L+MolKxH5BDwVzpRRijFovFC26Kjz2eB6ixUYxQR2ggI3JFiS/rRIcSWLDg5AdXNWlZwANsI1Cg==",
+  "dgSpecHash": "LTzhZgCEHqttX7U1AzpT7OAyblmD1wSsFK0Zzqlt2yQWvhtHMZvrQOo1EWfzKUwHDaSUwqLNTi4JC5vjiCx7Jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\06 05 2024\\ProdutoCore\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
+  "projectFilePath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\13 05 2024\\DemoObjetos\\DemoObjetos\\DemoObjetos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno.escola\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\bruno.escola\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
