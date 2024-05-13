@@ -12,7 +12,18 @@
 </head>
 <body>
     @{
-        for(int i = 0; i < 10; i++) <p>@i</p>
+        for(int i = 0; i < 10; i++) {
+            <p>@i</p>
+        }
+    }
+
+    @{ var mensagem = "Olá turma de TI3"; }
+
+    <h2>@mensagem</h2>
+
+    @{
+        var mensagem2 = "";
+        if (DateTime.Now.Hour > 12) mensagem2 = "Boa Tarde";
     }
 </body>
 </html>
