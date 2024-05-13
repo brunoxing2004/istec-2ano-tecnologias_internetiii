@@ -24,6 +24,33 @@
     @{
         var mensagem2 = "";
         if (DateTime.Now.Hour > 12) mensagem2 = "Boa Tarde";
+        else mensagem2 = "Boa noite ou manhã";
+    }
+
+    <h3>@mensagem2</h3>
+
+    @{
+        <table border="1">
+            
+            @for (int i = 1; i <= 10; i++)
+            {
+                <tr>
+                    @for (int j = 1; j <= 10; j++)
+                    {
+                        <td>@(i) x @(j) = @(i * j)</td>
+                    }
+                </tr>
+            }
+        </table>
+    }
+
+    @{
+        var strInteiro = "123,99";
+        var fQQ = 0F;
+        if (float.TryParse(strInteiro, out fQQ))
+        {
+            <p>Convertido: @fQQ</p>
+        };
     }
 </body>
 </html>
