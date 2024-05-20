@@ -21,6 +21,8 @@ namespace DemoObjetos.Controllers
                 Resumo = "Tenho de Comprar Lampadas class A",
                 Estado = true,
             };
+            ViewData["Origem"] = "Contabilidade";
+            ViewBag.Destino = "Produção";
             return View(documento);
         }
 
