@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetProduto</title>
+</head>
+<body>
+    <h1>Detalhe Objeto Produto</h1>
+    <p>ID: @Model.Id</p>
+    <p>Nome: @Model.Nome</p>
+    <p>PV: @Model.Pv</p>
+    <p>Stock: @Model.Stock</p>
+    <p>Valor em Armazém: @(Model.Pv * Model.Stock) </p>
+</body>
+</html>
