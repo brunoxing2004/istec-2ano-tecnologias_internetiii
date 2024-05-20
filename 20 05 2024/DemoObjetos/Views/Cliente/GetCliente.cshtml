@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetDoc</title>
+</head>
+<body>
+    <p>Cliente: </p>
+    <form>
+        <input type="" />
+        <label>Cliente: </label>
+        <input type="" />
+        <select name="metodos">
+            <option value="" selected>Cliente: </option>
+            @{var contentor = ViewBag.MP;}
+            @foreach (var clienteOrientacao in contentor)
+            {
+                <option value="@clienteOrientacao.Designacao">@clienteOrientacao.Designacao</option>
+            }
+        </select>
+    </form>
+</body>
+</html>
