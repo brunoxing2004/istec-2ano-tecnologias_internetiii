@@ -23,6 +23,9 @@ namespace DemoObjetos.Controllers
             };
             ViewData["Origem"] = "Contabilidade";
             ViewBag.Destino = "Produção";
+
+            List<ItemDropdown> metodosPagamento = new List<ItemDropdown>();
+
             return View(documento);
         }
 
