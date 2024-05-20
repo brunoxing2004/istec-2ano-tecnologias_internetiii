@@ -27,11 +27,19 @@
         <label>Nome: </label>
         <input type="" />
         <label>Método Pagamento: </label>
-        <select name="metodosPagamento">
+        @* <select name="metodosPagamento">
             <option value="" selected>Selecionar forma de pagamento</option>
             <option value="1">MBWay</option>
             <option value="2">MBNet</option>
             <option value="3">VISA</option>
+        </select> *@
+        <select name="metodos">
+            <option value="" selected>Selecionar forma pagamento: </option>
+            @{var contentor = ViewBag.MP;}
+            @foreach (var metodopagamento in contentor)
+            {
+                <option value="@metodopagamento.Id">@metodopagamento.Designacao</option>    
+            }
         </select>
     </form>
 </body>

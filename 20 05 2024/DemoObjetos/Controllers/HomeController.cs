@@ -25,7 +25,12 @@ namespace DemoObjetos.Controllers
             ViewBag.Destino = "Produção";
 
             List<ItemDropdown> metodosPagamento = new List<ItemDropdown>();
-
+            metodosPagamento.Add(new ItemDropdown { Designacao = "MBWay" });
+            metodosPagamento.Add(new ItemDropdown { Designacao = "MBNet" });
+            metodosPagamento.Add(new ItemDropdown { Designacao = "PayPal" });
+            metodosPagamento.Add(new ItemDropdown { Designacao = "Visa" });
+            metodosPagamento.Add(new ItemDropdown { Designacao = "Transferência Bancária" });
+            ViewBag.MP = metodosPagamento;
             return View(documento);
         }
 
