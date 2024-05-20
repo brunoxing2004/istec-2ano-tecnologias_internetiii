@@ -19,9 +19,20 @@
     <p>Na saca vamos ter: </p>
     <p>Como Viewback temos:</p>
     <p>Origem: @ViewBag.Origem</p>
-    <p>Destino: @ViewBag.Destino:</p>
+    <p>Destino: @ViewBag.Destino</p>
     <p>Como ViewData temos:</p>
     <p>Origem: @ViewData["Origem"]</p>
     <p>Destino: @ViewData["Destino"]</p>
+    <form>
+        <label>Nome: </label>
+        <input type="" />
+        <label>Método Pagamento: </label>
+        <select name="metodosPagamento">
+            <option value="" selected>Selecionar forma de pagamento</option>
+            <option value="1">MBWay</option>
+            <option value="2">MBNet</option>
+            <option value="3">VISA</option>
+        </select>
+    </form>
 </body>
 </html>
