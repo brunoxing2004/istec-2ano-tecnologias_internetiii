@@ -70,5 +70,41 @@ namespace CoreSQL.Models
             }
         }
 
+        public Documento? get(string uidDoc)
+        {
+            DataTable docs = new DataTable();
+            Documento? outDoc = new Documento();
+            SqlDataAdapter telefone = new SqlDataAdapter();
+            SqlCommand comando = new SqlCommand();
+            SqlConnection conexao = new SqlConnection(_conexao);
+
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT * FROM tDocumento WHERE uid=@uid";
+            comando.Parameters.AddWithValue("@uid", uidDoc);
+
+            comando.Connection = conexao;
+            telefone.SelectCommand = comando;
+            telefone.Fill(docs);
+
+            conexao.Close();
+            conexao.Dispose();
+
+            if (docs.Rows.Count == 1)
+            {
+                DataRow linhaDoc = docs.Rows[0];
+                outDoc.Uid = "" + linhaDoc["uid"];
+                outDoc.Titulo = "" + linhaDoc["titulo"];
+                outDoc.Resumo = "" + linhaDoc["resumo"];
+                outDoc.DtPublicacao = Convert.ToDateTime(linhaDoc["dtPublicacao"]);
+                outDoc.Estado = Convert.ToByte(linhaDoc["estado"]);
+                return outDoc;
+            }
+            else
+            {
+                outDoc = null;
+            }
+            return outDoc;
+        }
+
     }
 }

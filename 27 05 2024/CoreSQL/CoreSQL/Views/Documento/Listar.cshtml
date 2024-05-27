@@ -30,6 +30,7 @@
         @foreach(var doc in @Model)
         {
             <tr>
+                <td><a href="/Documento/Editar/@doc.Uid">Editar</a></td>
                 <td>@doc.Uid</td>
                 <td>@doc.Titulo</td>
                 <td>@doc.Resumo</td>
