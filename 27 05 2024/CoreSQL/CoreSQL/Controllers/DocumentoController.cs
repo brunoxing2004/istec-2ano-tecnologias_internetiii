@@ -7,6 +7,7 @@ namespace CoreSQL.Controllers
         public IActionResult Listar()
         {
             string ligacao = Program.conexaoGlobal;
+
             return View();
         }
     }
