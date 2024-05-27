@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\27 05 2024\\coresql\\coresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\27 05 2024\\coresql\\coresql\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\27 05 2024\\coresql\\coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706A67C4-E975-42FE-AF44-4E96E85E765B}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentoHelper.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Models\\DocumentoHelper.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\DocumentoHelper.cs",
+              "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Models\\DocumentoHelper.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\DocumentoHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:11:12.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Models\\Documento.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\Documento.cs",
+              "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Models\\Documento.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\Documento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:06:18.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Program.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Program.cs",
+              "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\27 05 2024\\CoreSQL\\CoreSQL\\Program.cs",
+              "RelativeToolTip": "CoreSQL\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:01:53.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
