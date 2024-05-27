@@ -53,10 +53,11 @@ namespace CoreSQL.Models
                 SqlConnection conexao = new SqlConnection(_conexao);
                 comando.Connection = conexao;
                 comando.CommandType = CommandType.Text;
-                comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, estado) " +
+                comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, dtPublicacao, estado) " +
                                         " VALUES (@titulo, @resumo, @estado)";
                 comando.Parameters.AddWithValue("@titulo", doc.Titulo);
                 comando.Parameters.AddWithValue("@resumo", doc.Resumo);
+                comando.Parameters.AddWithValue("@dtPublicacao", doc.DtPublicacao);
                 comando.Parameters.AddWithValue("@estado", doc.Estado);
                 conexao.Open();
                 comando.ExecuteNonQuery();
