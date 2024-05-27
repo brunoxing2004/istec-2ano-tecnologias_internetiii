@@ -29,7 +29,8 @@ namespace CoreSQL.Controllers
                     break;
             }
 
-            List<Documento> lista = dh.list(1);
+
+            List<Documento> lista = dh.list(estadoAVer);
             return View(lista);
         }
 

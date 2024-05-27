@@ -21,7 +21,7 @@ namespace CoreSQL.Models
             SqlConnection conexao = new SqlConnection(_conexao);
 
             comando.CommandType = CommandType.Text;
-            comando.CommandText = "SELECT * FROM tDocumento WHERE estado = @estado";
+            comando.CommandText = "SELECT * FROM tDocumento WHERE (estado = @estado OR @estado = 2)";
             comando.Parameters.AddWithValue("@estado", tipoEstado);
 
             comando.Connection = conexao;
