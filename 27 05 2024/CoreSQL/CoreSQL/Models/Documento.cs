@@ -2,7 +2,7 @@
 {
     public class Documento
     {
-        public string Id { get; set; }
+        public string Uid { get; set; }
         public string Titulo { get; set; }
         public string Resumo { get; set; }
         public DateTime DtPublicacao { get; set; }

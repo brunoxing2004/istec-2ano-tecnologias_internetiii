@@ -34,10 +34,11 @@ namespace CoreSQL.Models
             foreach (DataRow linhadoc in docs.Rows)
             {
                 Documento doc = new Documento();
-                doc.UidDoc = "" + linhadoc["uid"];
+                doc.Uid = "" + linhadoc["uid"];
                 doc.Titulo = "" + linhadoc["titulo"];
                 doc.Resumo = "" + linhadoc["resumo"];
                 doc.DtPublicacao = Convert.ToDateTime(linhadoc["dtPublicacao"]);
+                doc.DtCriacao = Convert.ToDateTime(linhadoc["dtCriacao"]);
                 doc.Estado = Convert.ToByte(linhadoc["estado"]);
                 outList.Add(doc);
             }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreSQL.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CoreSQL.Controllers
 {
@@ -7,8 +8,9 @@ namespace CoreSQL.Controllers
         public IActionResult Listar()
         {
             string ligacao = Program.conexaoGlobal;
-
-            return View();
+            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            List<Documento> lista = dh.list(1);
+            return View(lista);
         }
     }
 }
