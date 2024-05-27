@@ -44,5 +44,25 @@ namespace CoreSQL.Models
             }
             return outList;
         }
+
+        public void save(Documento doc)
+        {
+            if (string.IsNullOrEmpty(doc.Uid))
+            {
+                SqlCommand comando = new SqlCommand();
+                SqlConnection conexao = new SqlConnection(_conexao);
+                comando.Connection = conexao;
+                comando.CommandType = CommandType.Text;
+                comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, estado) " +
+                                        " VALUES (@titulo, @resumo, @estado)";
+                comando.Parameters.AddWithValue("@titulo", doc.Titulo);
+                comando.Parameters.AddWithValue("@resumo", doc.Resumo);
+                comando.Parameters.AddWithValue("@estado", doc.Estado);
+                conexao.Open();
+                comando.ExecuteNonQuery();
+                conexao.Close();
+                conexao.Dispose();
+            }
+        }
     }
 }
