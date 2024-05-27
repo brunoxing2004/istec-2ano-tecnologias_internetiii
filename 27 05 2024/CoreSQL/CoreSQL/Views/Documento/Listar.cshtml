@@ -11,5 +11,27 @@
     <title>Listar</title>
 </head>
 <body>
+    <h1>Lista Documentos</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Resumo</th>
+            <th>Data Publicação</th>
+            <th>Data Criação</th>
+            <th>Estado</th>
+        </tr>
+        @foreach(var doc in @Model)
+        {
+            <tr>
+                <td>@doc.Uid</td>
+                <td>@doc.Titulo</td>
+                <td>@doc.Resumo</td>
+                <td>@doc.DtPublicacao</td>
+                <td>@doc.DtCriacao</td>
+                <td>@doc.Estado</td>
+            </tr>
+        }
+    </table>
 </body>
 </html>

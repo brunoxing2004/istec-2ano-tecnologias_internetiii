@@ -243,3 +243,5 @@ C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 20
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 2024\CoreSQL\CoreSQL\obj\Debug\net8.0\CoreSQL.pdb
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 2024\CoreSQL\CoreSQL\obj\Debug\net8.0\CoreSQL.genruntimeconfig.cache
 C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 2024\CoreSQL\CoreSQL\obj\Debug\net8.0\ref\CoreSQL.dll
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 2024\CoreSQL\CoreSQL\obj\Debug\net8.0\CoreSQL.RazorAssemblyInfo.cache
+C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\27 05 2024\CoreSQL\CoreSQL\obj\Debug\net8.0\CoreSQL.RazorAssemblyInfo.cs
