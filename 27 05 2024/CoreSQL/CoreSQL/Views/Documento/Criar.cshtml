@@ -12,6 +12,16 @@
 </head>
 <body>
     <h1>Inserior Documento</h1>
-    <form method=""
+    <form method="post" action="/Documento/Criar">
+        <label>Titulo do Documento:</label>
+        <input type="text" name="Titulo" /><br />
+        <label>Resumo Documento:</label>
+        <input type="text" name="Resumo" /><br />
+        <label>Data Publicação:</label>
+        <input type="text" name="DtPublicacao" /><br />
+        <label>Estado:</label>
+        <input type="checkbox" name="Estado" value="1"/><br />
+        <input type="submit" value="Criar" />
+    </form>
 </body>
 </html>

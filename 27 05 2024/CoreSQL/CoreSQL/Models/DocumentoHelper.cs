@@ -54,7 +54,7 @@ namespace CoreSQL.Models
                 comando.Connection = conexao;
                 comando.CommandType = CommandType.Text;
                 comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, dtPublicacao, estado) " +
-                                        " VALUES (@titulo, @resumo, @estado)";
+                                        " VALUES (@titulo, @resumo, @dtPublicacao, @estado)";
                 comando.Parameters.AddWithValue("@titulo", doc.Titulo);
                 comando.Parameters.AddWithValue("@resumo", doc.Resumo);
                 comando.Parameters.AddWithValue("@dtPublicacao", doc.DtPublicacao);
@@ -64,6 +64,11 @@ namespace CoreSQL.Models
                 conexao.Close();
                 conexao.Dispose();
             }
+            else
+            {
+
+            }
         }
+
     }
 }

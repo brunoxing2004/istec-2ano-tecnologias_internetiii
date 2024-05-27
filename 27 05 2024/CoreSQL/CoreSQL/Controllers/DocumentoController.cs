@@ -1,14 +1,34 @@
 ﻿using CoreSQL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client;
 
 namespace CoreSQL.Controllers
 {
     public class DocumentoController : Controller
     {
-        public IActionResult Listar()
+        public IActionResult Listar(string op)
         {
             string ligacao = Program.conexaoGlobal;
             DocumentoHelper dh = new DocumentoHelper(ligacao);
+
+            int estadoAVer = 0;
+            switch (op)
+            {
+                case "":
+                case "ativos":
+                    estadoAVer = 1;
+                    break;
+                case "inativos":
+                    estadoAVer = 0;
+                    break;
+                case "todos":
+                    estadoAVer = 2;
+                    break;
+                default:
+                    estadoAVer = 1;
+                    break;
+            }
+
             List<Documento> lista = dh.list(1);
             return View(lista);
         }
@@ -26,7 +46,15 @@ namespace CoreSQL.Controllers
             ////};
             ////dh.save(doc);
             ////return RedirectToAction("Listar", "Documento"); //pode ir para outro controlador, mesmo sendo na mesma view
-            return View();        
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Criar(Documento documento)
+        {
+            string ligacao = Program.conexaoGlobal;
+            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            dh.save (documento);
+            return RedirectToAction("Listar", "Documento");
         }
     }
 }
