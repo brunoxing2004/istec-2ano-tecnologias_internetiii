@@ -96,6 +96,7 @@ namespace CoreSQL.Models
                 outDoc.Titulo = "" + linhaDoc["titulo"];
                 outDoc.Resumo = "" + linhaDoc["resumo"];
                 outDoc.DtPublicacao = Convert.ToDateTime(linhaDoc["dtPublicacao"]);
+                outDoc.DtCriacao = Convert.ToDateTime(linhaDoc["dtCriacao"]);
                 outDoc.Estado = Convert.ToByte(linhaDoc["estado"]);
                 return outDoc;
             }
