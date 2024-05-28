@@ -66,7 +66,25 @@ namespace CoreSQL.Models
             }
             else
             {
-
+                SqlCommand comando = new SqlCommand();
+                SqlConnection conexao = new SqlConnection(_conexao);
+                comando.Connection = conexao;
+                comando.CommandType = CommandType.Text;
+                comando.CommandText = " UPDATE tDocumento " +
+                                        " SET titulo = @titulo, " +
+                                        " resumo = @resumo, " +
+                                        "dtPublicacao = @dtPublicacao," +
+                                        " estado = @estado " +
+                                        " WHERE uid = @uid ";
+                comando.Parameters.AddWithValue("@titulo", doc.Titulo);
+                comando.Parameters.AddWithValue("@resumo", doc.Resumo);
+                comando.Parameters.AddWithValue("@dtPublicacao", doc.DtPublicacao);
+                comando.Parameters.AddWithValue("@estado", doc.Estado);
+                comando.Parameters.AddWithValue("@uid", doc.Uid);
+                conexao.Open();
+                comando.ExecuteNonQuery();
+                conexao.Close();
+                conexao.Dispose();
             }
         }
 
@@ -95,8 +113,8 @@ namespace CoreSQL.Models
                 outDoc.Uid = "" + linhaDoc["uid"];
                 outDoc.Titulo = "" + linhaDoc["titulo"];
                 outDoc.Resumo = "" + linhaDoc["resumo"];
-                outDoc.DtPublicacao = Convert.ToDateTime(linhaDoc["dtPublicacao"]);
                 outDoc.DtCriacao = Convert.ToDateTime(linhaDoc["dtCriacao"]);
+                outDoc.DtPublicacao = Convert.ToDateTime(linhaDoc["dtPublicacao"]);
                 outDoc.Estado = Convert.ToByte(linhaDoc["estado"]);
                 return outDoc;
             }

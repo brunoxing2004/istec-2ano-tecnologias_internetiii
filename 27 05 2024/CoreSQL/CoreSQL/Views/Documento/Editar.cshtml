@@ -1,28 +1,26 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Editar Documento</title>
+    <title>Criar</title>
 </head>
 <body>
-    <h1>Editar Documento</h1>
+    <h1>Criar documento</h1>
     <form method="post" action="/Documento/Editar">
         <input type="hidden" name="Uid" value="@Model.Uid" />
-        <label>Titulo do Documento:</label>
-        <input type="text" name="Titulo" /><br />
-        <label>Resumo Documento:</label>
-        <input type="text" name="Resumo" /><br />
+        <label>Titulo:</label>
+        <input type="text" name="Titulo" value="@Model.Titulo" /><br />
+        <label>Resumo:</label>
+        <input type="text" name="Resumo" value="@Model.Resumo" /><br />
         <label>Data Publicação:</label>
-        <input type="text" name="DtPublicacao" /><br />
+        <input type="date" name="DtPublicacao" value="@Model.DtPublicacao.ToString("yyyy-MM-dd")" /><br />
         <label>Estado:</label>
-        <input type="checkbox" name="Estado" value="1" /><br />
-        <input type="submit" value="Criar" />
+        <input type="checkbox" name="Estado" @(Model.Estado == 1 ? "checked" : "") /><br />
+        <input type="submit" value="Atualizar" />
     </form>
 </body>
 </html>
