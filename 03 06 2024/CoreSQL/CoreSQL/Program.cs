@@ -15,6 +15,8 @@ internal class Program {
         SmtpIP = config.SmtpIP;
 
         var app = builder.Build();
+        app.UseStaticFiles();
+        app.UseRouting();
 
         //app.MapGet("/", () => "Hello World!");
         app.MapControllerRoute(
