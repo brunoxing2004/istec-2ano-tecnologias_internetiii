@@ -24,51 +24,30 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            @foreach (var doc in @Model) {
+            @* <tr>
+                <td><a href="/Documento/Editar/@doc.Uid">Editar</a></td>
+                <td>@doc.Titulo</td>
+                <td>@doc.Resumo</td>
+                <td>@doc.DtPublicacao</td>
+                <td>@doc.DtCriacao</td>
+                <td>@doc.Estado</td>
+            </tr> *@
+
+        
                 <div class="post-preview">
-                    <a href="exemplo.html">
+                    <a href="#">
                         <h2 class="post-title">
-                            Ultimo Documento Publicado 
+                            @doc.Titulo
                         </h2>
                         <h3 class="post-subtitle">
-                            Lançamos o portal <i>Docs 4 ALL</i>
+                            @doc.Resumo
                         </h3>
                     </a>
-                    <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em 10 de Outubro de 2022</p>
+                    <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em @doc.DtPublicacao</p>
                 </div>
                 <hr>
-                <div class="post-preview">
-                    <a href="exemplo.html">
-                        <h2 class="post-title">
-                            Todos os minutos algo de importante acontece. Para si, neste minuto, capturamos mais um cliente.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em 10 de Outubro de 2022</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="exemplo.html">
-                        <h2 class="post-title">
-                            Alguns dizem que o  Marketing é uma Arte... outros, que é uma Ciência! <br/>Somos especialistas nos dois!
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Utilizamos ferramentas de Marketing Digital de Última geração, para poder agarrar a Lua.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em 10 de Outubro de 2022</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="exemplo.html">
-                        <h2 class="post-title">
-                            <i>What the Hell is a Gigawatt?</i>
-                        </h2>
-                        <h3 class="post-subtitle">
-                            É o que vai dizer a sua concorrência.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em 10 de Outubro de 2022</p>
-                </div>
-                <hr>
+        }
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
