@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace CoreSQL.Controllers {
     public class DocumentoController : Controller {
         public IActionResult Listar(string op) {
-            string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            //string ligacao = Program.conexaoGlobal;
+            DocumentoHelper dh = new DocumentoHelper();
             int estadoAVer = 0;
             switch(op) {
                 case "":
@@ -42,8 +42,8 @@ namespace CoreSQL.Controllers {
 
         [HttpPost]
         public IActionResult Criar(Documento documento) {
-            string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            //string ligacao = Program.conexaoGlobal;
+            DocumentoHelper dh = new DocumentoHelper();
             dh.save (documento);
             return RedirectToAction("Listar", "Documento");
         }
@@ -51,7 +51,7 @@ namespace CoreSQL.Controllers {
         [HttpGet]
         public IActionResult Editar(string op) {
             string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            //DocumentoHelper dh = new DocumentoHelper();
             Documento? doc = dh.get(op);
             if (doc == null) return RedirectToAction("Listar", "Documento");
             return View(doc);
@@ -59,8 +59,8 @@ namespace CoreSQL.Controllers {
 
         [HttpPost]
         public IActionResult Editar (Documento documento) {
-            string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper(ligacao);
+            //string ligacao = Program.conexaoGlobal;
+            DocumentoHelper dh = new DocumentoHelper();
             dh.save(documento);
             return RedirectToAction("Listar", "Documento");
         }

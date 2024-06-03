@@ -3,11 +3,11 @@ using System.Data;
 
 namespace CoreSQL.Models {
     public class DocumentoHelper {
-        private readonly string _conexao;
+        //private readonly string _conexao;
 
-        public DocumentoHelper(string conexao) {
-            _conexao = conexao;
-        }
+        //public DocumentoHelper() {
+        //    _conexao = conexao;
+        //}
 
         public List<Documento> list(int tipoEstado) {
             DataTable docs = new DataTable();
