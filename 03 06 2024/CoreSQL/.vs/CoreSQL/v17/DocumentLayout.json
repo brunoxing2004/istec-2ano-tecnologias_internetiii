@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\03 06 2024\\coresql\\coresql\\views\\documento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\views\\documento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|c:\\users\\bruno.escola\\desktop\\github\\istec-2ano-tecnologias_internetiii\\03 06 2024\\coresql\\coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\Views\\Documento\\Listar.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Documento\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\Views\\Documento\\Listar.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Documento\\Listar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T19:40:46.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CoreSQL\\Views\\Shared\\_Layout.cshtml",
@@ -35,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "CoreSQL\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\index.html",
               "RelativeToolTip": "CoreSQL\\wwwroot\\index.html",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAAAMgAAAAHAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwJUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-03T19:25:51.819Z",
               "EditorCaption": ""
