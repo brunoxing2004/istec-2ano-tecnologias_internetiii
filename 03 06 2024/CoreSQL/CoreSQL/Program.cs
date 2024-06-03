@@ -9,6 +9,7 @@ internal class Program {
 
     private static void Main(string[] args) {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Services.AddSession(s => s.IdleTimeout = TimeSpan.FromMinutes(20));
         builder.Services.AddMvc();
         var config = builder.Configuration.GetSection("Configuracao").Get<Configuracao>();
         Conector = config.Conexao;
@@ -17,6 +18,7 @@ internal class Program {
         var app = builder.Build();
         app.UseStaticFiles();
         app.UseRouting();
+        app.UseSession();
 
         //app.MapGet("/", () => "Hello World!");
         app.MapControllerRoute(
