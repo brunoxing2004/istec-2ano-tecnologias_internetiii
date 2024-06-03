@@ -1,3 +1,5 @@
+using CoreSQL.Models;
+
 internal class Program {
 
     //public static string conexaoGlobal = "server=EDP-JR-10H2\\SQL14; database=GestaoDocumental; uid=IUser; pwd=IUser; TrustServerCertificate=False; Encrypt=False";
@@ -8,6 +10,10 @@ internal class Program {
     private static void Main(string[] args) {
         var builder = WebApplication.CreateBuilder(args);
         builder.Services.AddMvc();
+        var config = builder.Configuration.GetSection("Configuracao").Get<Configuracao>();
+        Conector = config.Conexao;
+        SmtpIP = config.SmtpIP;
+
         var app = builder.Build();
 
         //app.MapGet("/", () => "Hello World!");
