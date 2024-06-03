@@ -6,7 +6,10 @@ namespace CoreSQL.Controllers
     {
         public IActionResult Login()
         {
-            return View();
+            HttpContext.Session.SetString("nivelAcesso", "1");
+            return RedirectToAction("Documento", "Listar");
         }
+
+
     }
 }
