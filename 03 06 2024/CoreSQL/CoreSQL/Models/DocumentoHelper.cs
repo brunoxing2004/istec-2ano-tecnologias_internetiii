@@ -2,7 +2,7 @@
 using System.Data;
 
 namespace CoreSQL.Models {
-    public class DocumentoHelper {
+    public class DocumentoHelper : HelperBase {
         //private readonly string _conexao;
 
         //public DocumentoHelper() {
