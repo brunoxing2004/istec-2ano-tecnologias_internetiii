@@ -6965,35 +6965,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jr.CESAE-DOM\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\bruno.escola\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jr.CESAE-DOM\\source\\repos\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
+      "projectUniqueName": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
       "projectName": "CoreSQL",
-      "projectPath": "C:\\Users\\jr.CESAE-DOM\\source\\repos\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
-      "packagesPath": "C:\\Users\\jr.CESAE-DOM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jr.CESAE-DOM\\source\\repos\\CoreSQL\\CoreSQL\\obj\\",
+      "projectPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
+      "packagesPath": "C:\\Users\\bruno.escola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\03 06 2024\\CoreSQL\\CoreSQL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jr.CESAE-DOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\bruno.escola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7045,7 +7036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

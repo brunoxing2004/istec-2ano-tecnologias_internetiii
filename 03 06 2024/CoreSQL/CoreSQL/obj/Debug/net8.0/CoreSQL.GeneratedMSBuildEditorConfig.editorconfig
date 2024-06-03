@@ -17,23 +17,23 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoreSQL
 build_property.RootNamespace = CoreSQL
-build_property.ProjectDir = C:\Users\jr.CESAE-DOM\source\repos\CoreSQL\CoreSQL\
+build_property.ProjectDir = C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\03 06 2024\CoreSQL\CoreSQL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jr.CESAE-DOM\source\repos\CoreSQL\CoreSQL
+build_property.MSBuildProjectDirectory = C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\03 06 2024\CoreSQL\CoreSQL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jr.CESAE-DOM/source/repos/CoreSQL/CoreSQL/Views/Documento/Criar.cshtml]
+[C:/Users/bruno.escola/Desktop/GitHub/istec-2ano-tecnologias_internetiii/03 06 2024/CoreSQL/CoreSQL/Views/Documento/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXENyaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jr.CESAE-DOM/source/repos/CoreSQL/CoreSQL/Views/Documento/Editar.cshtml]
+[C:/Users/bruno.escola/Desktop/GitHub/istec-2ano-tecnologias_internetiii/03 06 2024/CoreSQL/CoreSQL/Views/Documento/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jr.CESAE-DOM/source/repos/CoreSQL/CoreSQL/Views/Documento/Listar.cshtml]
+[C:/Users/bruno.escola/Desktop/GitHub/istec-2ano-tecnologias_internetiii/03 06 2024/CoreSQL/CoreSQL/Views/Documento/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
