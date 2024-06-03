@@ -50,8 +50,8 @@ namespace CoreSQL.Controllers {
 
         [HttpGet]
         public IActionResult Editar(string op) {
-            string ligacao = Program.conexaoGlobal;
-            //DocumentoHelper dh = new DocumentoHelper();
+            //string ligacao = Program.conexaoGlobal;
+            DocumentoHelper dh = new DocumentoHelper();
             Documento? doc = dh.get(op);
             if (doc == null) return RedirectToAction("Listar", "Documento");
             return View(doc);

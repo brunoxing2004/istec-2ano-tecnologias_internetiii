@@ -14,7 +14,7 @@ namespace CoreSQL.Models {
             List<Documento> outList = new List<Documento>();
             SqlDataAdapter telefone = new SqlDataAdapter();
             SqlCommand comando = new SqlCommand();
-            SqlConnection conexao = new SqlConnection(_conexao);
+            SqlConnection conexao = new SqlConnection(ConectorHerdado);
 
             comando.CommandType = CommandType.Text;
             comando.CommandText = "SELECT * FROM tDocumento WHERE (estado = @estado OR @estado = 2)";
@@ -43,7 +43,7 @@ namespace CoreSQL.Models {
         public void save(Documento doc) {
             if (string.IsNullOrEmpty(doc.Uid)) {
                 SqlCommand comando = new SqlCommand();
-                SqlConnection conexao = new SqlConnection(_conexao);
+                SqlConnection conexao = new SqlConnection(ConectorHerdado);
                 comando.Connection = conexao;
                 comando.CommandType = CommandType.Text;
                 comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, dtPublicacao, estado) " +
@@ -59,7 +59,7 @@ namespace CoreSQL.Models {
             }
             else {
                 SqlCommand comando = new SqlCommand();
-                SqlConnection conexao = new SqlConnection(_conexao);
+                SqlConnection conexao = new SqlConnection(ConectorHerdado);
                 comando.Connection = conexao;
                 comando.CommandType = CommandType.Text;
                 comando.CommandText = " UPDATE tDocumento " +
@@ -86,7 +86,7 @@ namespace CoreSQL.Models {
             Documento? outDoc = new Documento();
             SqlDataAdapter telefone = new SqlDataAdapter();
             SqlCommand comando = new SqlCommand();
-            SqlConnection conexao = new SqlConnection(_conexao);
+            SqlConnection conexao = new SqlConnection(ConectorHerdado);
 
             comando.CommandType = CommandType.Text;
             comando.CommandText = "SELECT * FROM tDocumento WHERE uid=@uid";
