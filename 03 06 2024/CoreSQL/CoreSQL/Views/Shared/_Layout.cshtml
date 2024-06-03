@@ -60,12 +60,21 @@
                     <li>
                         <a href="/site/contacto">Contactos</a>
                     </li>
-                    <li>
-                        <a href="#">Registe-se</a>
-                    </li>
-                    <li>
-                        <a href="#">Entrar</a>
-                    </li>
+                    @if (ViewBag.NivelAcesso == "1")
+                    {
+                        <li>
+                            <a href="/Conta/Logout">Logout</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="#">Registe-se</a>
+                        </li>
+                        <li>
+                            <a href="/Conta/Login">Login</a>
+                        </li>
+                    }
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

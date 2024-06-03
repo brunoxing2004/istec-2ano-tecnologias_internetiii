@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CoreSQL.Controllers {
     public class DocumentoController : Controller {
         public IActionResult Listar(string op) {
+            ViewBag.NivelAcesso = "" + HttpContext.Session.GetString("nivelAcesso");
             //string ligacao = Program.conexaoGlobal;
             DocumentoHelper dh = new DocumentoHelper();
             int estadoAVer = 0;

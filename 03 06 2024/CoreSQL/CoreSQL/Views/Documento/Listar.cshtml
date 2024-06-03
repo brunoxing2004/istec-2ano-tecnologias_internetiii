@@ -47,6 +47,15 @@
                     <p class="post-meta">Publicado por <a href="#">Docs 4 ALL</a> em @doc.DtPublicacao</p>
                 </div>
                 <hr>
+
+                @if (ViewBag.NivelAcesso == "1")
+                {
+                    <h1>AUTENTICADO!!</h1>
+                }
+                else
+                {
+                    <h2>ANÓNIMO!!</h2>
+                }
         }
                 <!-- Pager -->
                 <ul class="pager">

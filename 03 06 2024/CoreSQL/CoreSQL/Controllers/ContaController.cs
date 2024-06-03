@@ -7,9 +7,13 @@ namespace CoreSQL.Controllers
         public IActionResult Login()
         {
             HttpContext.Session.SetString("nivelAcesso", "1");
-            return RedirectToAction("Documento", "Listar");
+            return RedirectToAction("Listar", "Documento");
         }
 
-
+        public IActionResult Logout()
+        {
+            HttpContext.Session.SetString("nivelAcesso", "0");
+            return RedirectToAction("Listar", "Documento");
+        }
     }
 }
