@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             @foreach (var doc in @Model) {
-            @* <tr>
+                @* <tr>
                 <td><a href="/Documento/Editar/@doc.Uid">Editar</a></td>
                 <td>@doc.Titulo</td>
                 <td>@doc.Resumo</td>
@@ -34,9 +34,20 @@
                 <td>@doc.Estado</td>
             </tr> *@
 
-        
+
                 <div class="post-preview">
-                    <a href="#">
+                    @{
+                        var url = "";
+                        if (ViewBag.ContaAtiva.NivelAcesso == 0)
+                        {
+                            url = "javascript.window.alert('Autentica para ler/editar')";
+                        }
+                        else
+                        {
+                            url = $"/Documento/Editar/{@doc.Uid}";
+                        }
+                    }
+                    <a href="@url">
                         <h2 class="post-title">
                             @doc.Titulo
                         </h2>
@@ -48,7 +59,7 @@
                 </div>
                 <hr>
 
-                @if (ViewBag.NivelAcesso == "1")
+                @if (ViewBag.ContaAtiva.NivelAcesso > 0)
                 {
                     <h1>AUTENTICADO!!</h1>
                 }

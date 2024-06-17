@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68d822f851b41e0d73d88228b4e26cac015aedef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57a12848dd37c2f555062f646a058448fe727bb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

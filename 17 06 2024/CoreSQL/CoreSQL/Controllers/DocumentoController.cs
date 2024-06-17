@@ -1,8 +1,25 @@
 ﻿using CoreSQL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace CoreSQL.Controllers {
     public class DocumentoController : Controller {
+
+        private Conta? _conta;
+        public override void OnActionExecuting(ActionExecutingContext aec)
+        {
+            base.OnActionExecuting(aec);
+
+            ContaHelper cc = new ContaHelper();
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(Program.SessionContainerName)))
+            {
+                HttpContext.Session.SetString(Program.SessionContainerName, cc.serializeConta(cc.setGuest()));
+            }//só entra se for a primeira vez a aceder ao site
+            _conta = cc.deSerializeConta("" + HttpContext.Session.GetString(Program.SessionContainerName));
+            if (_conta != null) ViewBag.ContaAtiva = _conta;
+            else ViewBag.ContaAtiva = cc.setGuest();
+        }
+
         public IActionResult Listar(string op) {
             ViewBag.NivelAcesso = "" + HttpContext.Session.GetString("nivelAcesso");
             //string ligacao = Program.conexaoGlobal;
@@ -52,19 +69,26 @@ namespace CoreSQL.Controllers {
         [HttpGet]
         public IActionResult Editar(string op) {
             //string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper();
-            Documento? doc = dh.get(op);
-            if (doc == null) return RedirectToAction("Listar", "Documento");
-            return View(doc);
-        }
-
-        [HttpPost]
-        public IActionResult Editar (Documento documento) {
-            //string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper();
-            dh.save(documento);
+            if (_conta.NivelAcesso > 0)
+            {
+                DocumentoHelper dh = new DocumentoHelper();
+                Documento? doc = dh.get(op);
+                if (doc == null) return RedirectToAction("Listar", "Documento");
+                return View(doc);
+            }
             return RedirectToAction("Listar", "Documento");
         }
 
+        [HttpPost]
+        public IActionResult Editar(Documento documento)
+        {
+            if (_conta.NivelAcesso > 0)
+            {
+                //string ligacao = Program.conexaoGlobal;
+                DocumentoHelper dh = new DocumentoHelper();
+                dh.save(documento);
+            }
+            return RedirectToAction("Listar", "Documento");
+        }
     }
 }

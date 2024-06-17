@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\bruno.escola\Desktop\GitHub\istec-2ano-tecnologias_internetiii\17 06 2024\CoreSQL\CoreSQL
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/bruno.escola/Desktop/GitHub/istec-2ano-tecnologias_internetiii/17 06 2024/CoreSQL/CoreSQL/Views/Conta/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bruno.escola/Desktop/GitHub/istec-2ano-tecnologias_internetiii/17 06 2024/CoreSQL/CoreSQL/Views/Documento/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXENyaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

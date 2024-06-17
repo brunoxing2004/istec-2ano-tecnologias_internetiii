@@ -60,7 +60,7 @@
                     <li>
                         <a href="/site/contacto">Contactos</a>
                     </li>
-                    @if (ViewBag.NivelAcesso == "1")
+                    @if (ViewBag.ContaAtiva.NivelAcesso > 0)
                     {
                         <li>
                             <a href="/Conta/Logout">Logout</a>
@@ -117,7 +117,7 @@
                     </ul>
                     <div class="row">
                         <p style="background: gray; color: white;">
-							Utilizador Anónimo
+							Utilizador: @ViewBag.ContaAtiva.Nome ; Perfil: @ViewBag.ContaAtiva.NivelAcesso ;
                         </p>
                     </div>
                     <p class="copyright text-muted">Copyright &copy; Docs 4 ALL 2023</p>
