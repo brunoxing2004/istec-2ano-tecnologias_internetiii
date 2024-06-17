@@ -6,6 +6,7 @@ internal class Program {
 
     public static string Conector = "";
     public static string SmtpIP = "";
+    public static string SessionContainerName = "";
 
     private static void Main(string[] args) {
         var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,7 @@ internal class Program {
         var config = builder.Configuration.GetSection("Configuracao").Get<Configuracao>();
         Conector = config.Conexao;
         SmtpIP = config.SmtpIP;
+        SessionContainerName = "contaAtiva";
 
         var app = builder.Build();
         app.UseStaticFiles();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreSQL.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CoreSQL.Controllers
 {
@@ -6,7 +7,10 @@ namespace CoreSQL.Controllers
     {
         public IActionResult Login()
         {
-            HttpContext.Session.SetString("nivelAcesso", "1");
+            ContaHelper ch = new ContaHelper();
+            //cOut é um admin 
+            Conta cOut = ch.authUser("admin@net.pt", "1234");
+            HttpContext.Session.SetString(Program.SessionContainerName, "1");
             return RedirectToAction("Listar", "Documento");
         }
 
