@@ -38,7 +38,7 @@ namespace CoreSQL.Controllers
             HttpContext.Session.Clear();
             string contaSerializada = ch.serializeConta(ch.setGuest());
             HttpContext.Session.SetString(Program.SessionContainerName, contaSerializada);
-            return RedirectToAction("Listar", "Documento");
+            return RedirectToAction("Conta", "Login");
         }
 
         [HttpGet]
@@ -58,7 +58,7 @@ namespace CoreSQL.Controllers
                 string contaSerializada = ch.serializeConta(cOut);
                 HttpContext.Session.SetString(Program.SessionContainerName, contaSerializada);
             }
-            return RedirectToAction("Listar", "Documento");
+            return RedirectToAction("Conta", "Login");
         }
     }
 }
