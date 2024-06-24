@@ -1,0 +1,161 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.intellisense.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.min.map"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.min.map"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\acerca.html",
+      "PackagePath": "staticwebassets\\acerca.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\contacto.html",
+      "PackagePath": "staticwebassets\\contacto.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.css",
+      "PackagePath": "staticwebassets\\css\\docs4all.css"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.min.css",
+      "PackagePath": "staticwebassets\\css\\docs4all.min.css"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\documento.html",
+      "PackagePath": "staticwebassets\\documento.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\exemplo.html",
+      "PackagePath": "staticwebassets\\exemplo.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\contact-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\login-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\no_pic.png",
+      "PackagePath": "staticwebassets\\img\\no_pic.png"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\post-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-sample-image.jpg",
+      "PackagePath": "staticwebassets\\img\\post-sample-image.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\img\\registo-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\registo-bg.jpg"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\wwwroot\\registo.html",
+      "PackagePath": "staticwebassets\\registo.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreMedicacao.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CoreMedicacao.props",
+      "PackagePath": "build\\CoreMedicacao.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CoreMedicacao.props",
+      "PackagePath": "buildMultiTargeting\\CoreMedicacao.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CoreMedicacao.props",
+      "PackagePath": "buildTransitive\\CoreMedicacao.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

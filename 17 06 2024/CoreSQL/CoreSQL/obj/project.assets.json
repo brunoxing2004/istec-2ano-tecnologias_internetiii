@@ -6965,19 +6965,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno.escola\\.nuget\\packages\\": {}
+    "C:\\Users\\bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
+      "projectUniqueName": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
       "projectName": "CoreSQL",
-      "projectPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
-      "packagesPath": "C:\\Users\\bruno.escola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\obj\\",
+      "projectPath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\CoreSQL.csproj",
+      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bruno.escola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6985,6 +6985,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7036,7 +7037,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

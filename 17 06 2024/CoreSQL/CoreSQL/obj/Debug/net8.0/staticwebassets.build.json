@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gi7q5h8hen+dh+lPVo6VBqNMW1KN87c8cyjsqit7zF4=",
+  "Hash": "s7zI+kumIoeXtuOAIfS0Lh/2nT8Ca/bx09oXyNwSPVw=",
   "Source": "CoreSQL",
   "BasePath": "_content/CoreSQL",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CoreSQL\\wwwroot",
       "Source": "CoreSQL",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\acerca.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\acerca.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "acerca.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\acerca.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\contacto.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\contacto.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "contacto.html",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\contacto.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.css",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.css",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.css",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.css",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "css/docs4all.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\docs4all.css"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.min.css",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\css\\docs4all.min.css",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "css/docs4all.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\docs4all.min.css"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\documento.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\documento.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "documento.html",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\documento.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\exemplo.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\exemplo.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "exemplo.html",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\exemplo.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\about-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\about-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/about-bg.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\contact-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\contact-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/contact-bg.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\contact-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\home-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\home-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/home-bg.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\login-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\login-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/login-bg.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\login-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\no_pic.png",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\no_pic.png",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/no_pic.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\no_pic.png"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/post-bg.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\post-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-sample-image.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\post-sample-image.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/post-sample-image.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\post-sample-image.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\registo-bg.jpg",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\img\\registo-bg.jpg",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "img/registo-bg.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\registo-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\index.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\index.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "js/jquery.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.min.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\js\\jquery.min.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\login.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\login.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "login.html",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\registo.html",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\registo.html",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "registo.html",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\registo.html"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.intellisense.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.intellisense.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.js",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.min.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.map"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.slim.js",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.slim.min.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "Identity": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
       "SourceId": "CoreSQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bruno.escola\\Desktop\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
+      "ContentRoot": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\17 06 2024\\CoreSQL\\CoreSQL\\wwwroot\\",
       "BasePath": "_content/CoreSQL",
       "RelativePath": "Scripts/jquery-3.3.1.slim.min.map",
       "AssetKind": "All",

@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Criar</title>
+</head>
+<body>
+    <h1>Inserir Documento</h1>
+    <form method="post" action="/Documento/Criar">
+        <label>Titulo do Documento: </label>
+        <input type="text" name="Titulo" /><br />
+        <label>Resumo do Documento:</label>
+        <input type="text" name="Resumo" /><br />
+        <label>Data Publicação:</label>
+        <input type="date" name="DtPublicacao"/><br />
+        <label>Estado:</label>
+        <input type="checkbox" name="Estado" value="1" /><br />
+        <input type="submit" value="Criar" />
+    </form>
+</body>
+</html>
