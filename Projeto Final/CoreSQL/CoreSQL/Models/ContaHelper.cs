@@ -1,4 +1,7 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Data.SqlClient;
+using Microsoft.IdentityModel.Tokens;
+using System.Configuration;
 using System.Data;
 using System.Text.Json;
 
@@ -10,53 +13,100 @@ namespace CoreSQL.Models
         {
             return new Conta
             {
-                NivelAcesso = 0
+                Guid = Guid.NewGuid().ToString(),
+                NivelAcesso = ""
             };
         }
 
-        public Conta authUser(string login, string password)
+        public Conta autenticarUser(string login, string password)
         {
-
-            SqlCommand comando = new SqlCommand();
-            SqlConnection conexao = new SqlConnection(ConectorHerdado);
-            comando.Connection = conexao;
-            comando.CommandType = CommandType.Text;
-            string loginValidado = comando.CommandText = "SELECT utilizador FROM tUtilizadores WHERE utilizador = @login";
-            comando.Parameters.Add(new SqlParameter("@login", login));
-            conexao.Open();
-            comando.ExecuteNonQuery();
-            conexao.Close();
-            conexao.Dispose();
-
-            if (login != loginValidado && password == "1234")
+            string connectionString = "Data Source=DESKTOP-BRUNOPC\\SQLEXPRESS;Initial Catalog=MedicacaoRegisto;User ID=dbuser;Password=dbuser;TrustServerCertificate=true;";
+            using (SqlConnection conexao = new SqlConnection(connectionString))
             {
-                return new Conta
+                string query = "SELECT utilizador, password, guid FROM tUtilizadores WHERE utilizador = @login";
+                using (SqlCommand comando = new SqlCommand(query, conexao))
                 {
-                    NivelAcesso = 1
-                };
+                    comando.Parameters.AddWithValue("@login", login);
+                    try
+                    {
+                        conexao.Open();
+                        using (SqlDataReader comandoDataReader = comando.ExecuteReader())
+                        {
+                            if (comandoDataReader.Read())
+                            {
+                                string loginValidado = comandoDataReader["utilizador"].ToString();
+                                string passwordValidado = comandoDataReader["password"].ToString();
+                                string guidValidado = comandoDataReader["guid"].ToString();
+                                if (login == loginValidado && password == passwordValidado)
+                                {
+                                    return new Conta
+                                    {
+                                        Guid = guidValidado,
+                                        NivelAcesso = guidValidado
+                                    };
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        // Log or handle the exception as needed
+                        throw new ApplicationException("Erro ao autenticar o usuário", ex);
+                    }
+                }
             }
-
-            if (string.IsNullOrEmpty(doc.Uid))
-            {
-                SqlCommand comando = new SqlCommand();
-                SqlConnection conexao = new SqlConnection(ConectorHerdado);
-                comando.Connection = conexao;
-                comando.CommandType = CommandType.Text;
-                comando.CommandText = " INSERT INTO tDocumento (titulo, resumo, dtPublicacao, estado) " +
-                                        " VALUES (@titulo, @resumo, @dtPublicacao, @estado)";
-                comando.Parameters.AddWithValue("@titulo", doc.Titulo);
-                comando.Parameters.AddWithValue("@resumo", doc.Resumo);
-                comando.Parameters.AddWithValue("@dtPublicacao", doc.DtPublicacao);
-                comando.Parameters.AddWithValue("@estado", doc.Estado);
-                conexao.Open();
-                comando.ExecuteNonQuery();
-                conexao.Close();
-                conexao.Dispose();
-            }
-
 
             return setGuest();
         }
+
+
+
+
+
+        public Conta registarUser(string login, string password)
+        {
+            string connectionString = "Data Source=DESKTOP-BRUNOPC\\SQLEXPRESS;Initial Catalog=MedicacaoRegisto;User ID=dbuser;Password=dbuser;TrustServerCertificate=true;";
+            using (SqlConnection conexao = new SqlConnection(connectionString))
+            {
+                string query = "INSERT INTO tUtilizadores (utilizador, password) VALUES (@login, @password)";
+                using (SqlCommand comando = new SqlCommand(query, conexao))
+                {
+                    comando.Parameters.AddWithValue("@login", login);
+                    comando.Parameters.AddWithValue("@password", password);
+
+                    try
+                    {
+                        conexao.Open();
+                        int rowsAffected = comando.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            return new Conta
+                            {
+                                Guid = Guid.NewGuid().ToString(),
+                                NivelAcesso = ""
+                            };
+                        }
+                        else
+                        {
+                            throw new ApplicationException("Erro ao registrar o usuário. Nenhuma linha foi afetada.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        // Log or handle the exception as needed
+                        throw new ApplicationException("Erro ao registrar o usuário", ex);
+                    }
+                    finally
+                    {
+                        conexao.Close();
+                    }
+                }
+            }
+
+            return setGuest();
+        }
+
+
         public string serializeConta(Conta conta)
         {
             return JsonSerializer.Serialize<Conta>(conta);

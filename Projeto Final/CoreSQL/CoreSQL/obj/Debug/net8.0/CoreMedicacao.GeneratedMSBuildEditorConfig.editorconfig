@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/CoreSQL/CoreSQL/Views/Conta/Registar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcUmVnaXN0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/CoreSQL/CoreSQL/Views/Documento/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXENyaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/CoreSQL/CoreSQL/Views/Documento/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/CoreSQL/CoreSQL/Views/Medicamento/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cTGlzdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/CoreSQL/CoreSQL/Views/Shared/_Layout.cshtml]

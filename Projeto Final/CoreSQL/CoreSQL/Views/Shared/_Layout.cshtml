@@ -36,15 +36,16 @@
     <div class="navbar">
         <a href="/">Início</a>
         <a href="#medicacao">Medicação</a>
-        @if (ViewBag.ContaAtiva.NivelAcesso > 0)
+        @if (!string.IsNullOrEmpty(ViewBag.ContaAtiva?.NivelAcesso))
         {
-            <a href="/Conta/Logout">Logout</a>
+            <a href="/Conta/Logout">Logout (@ViewBag.ContaAtiva.NivelAcesso)</a>
         }
         else
         {
             <a href="/Conta/Registar">Registe-se</a>
             <a href="/Conta/Login">Login</a>
         }
+
     </div>
 
     @RenderBody()

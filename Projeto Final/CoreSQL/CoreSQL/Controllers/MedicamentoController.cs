@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace CoreSQL.Controllers {
-    public class DocumentoController : Controller {
+    public class MedicamentoController : Controller {
 
         private Conta? _conta;
         public override void OnActionExecuting(ActionExecutingContext aec)
@@ -18,31 +18,23 @@ namespace CoreSQL.Controllers {
             _conta = cc.deSerializeConta("" + HttpContext.Session.GetString(Program.SessionContainerName));
             if (_conta != null) ViewBag.ContaAtiva = _conta;
             else ViewBag.ContaAtiva = cc.setGuest();
+            string guidSessao = _conta.ToString();
         }
 
-        public IActionResult Listar(string op) {
+
+        public IActionResult Listar(string op)
+        {
             ViewBag.NivelAcesso = "" + HttpContext.Session.GetString("nivelAcesso");
             //string ligacao = Program.conexaoGlobal;
-            DocumentoHelper dh = new DocumentoHelper();
-            int estadoAVer = 0;
-            switch(op) {
-                case "":
-                case "ativos":
-                    estadoAVer = 1;
-                    break;
-                case "inativos":
-                    estadoAVer = 0;
-                    break;
-                case "todos":
-                    estadoAVer = 2;
-                    break;
-                default:
-                    estadoAVer = 1;
-                    break;
-            }
-            List<Documento> lista = dh.list(estadoAVer);
+            MedicamentoHelper dh = new MedicamentoHelper();
+            string guid = ViewBag.NivelAcesso;
+            List<Medicamento> lista = dh.list(guid);
             return View(lista);
         }
+
+
+
+
 
         [HttpGet]
         public IActionResult Criar() {
@@ -73,10 +65,10 @@ namespace CoreSQL.Controllers {
             {
                 DocumentoHelper dh = new DocumentoHelper();
                 Documento? doc = dh.get(op);
-                if (doc == null) return RedirectToAction("Listar", "Documento");
+                if (doc == null) return RedirectToAction("Listar", "Medicamento");
                 return View(doc);
             }
-            return RedirectToAction("Listar", "Documento");
+            return RedirectToAction("Listar", "Medicamento");
         }
 
         [HttpPost]

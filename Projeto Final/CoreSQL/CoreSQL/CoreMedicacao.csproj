@@ -9,10 +9,12 @@
   <ItemGroup>
     <None Remove="appsettings.json~RF35405f54.TMP" />
     <None Remove="Views\Documento\Listar.cshtml.2DEL" />
+    <None Remove="Views\Medicamento\Listar.cshtml.2DEL" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Views\Documento\Listar.cshtml.2DEL" />
+    <Content Include="Views\Medicamento\Listar.cshtml.2DEL" />
   </ItemGroup>
 
   <ItemGroup>

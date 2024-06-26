@@ -13,6 +13,7 @@ internal class Program {
         builder.Services.AddMvc();
         var config = builder.Configuration.GetSection("Configuracao").Get<Configuracao>();
         Conector = config.Conexao;
+        //Conector2 = config.Conexao2;
         SessionContainerName = "contaAtiva";
 
         var app = builder.Build();

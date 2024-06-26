@@ -1,4 +1,5 @@
-﻿using CoreSQL.Models;
+﻿using CoreMedicacao.Models;
+using CoreSQL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
@@ -38,7 +39,7 @@ namespace CoreSQL.Controllers
             HttpContext.Session.Clear();
             string contaSerializada = ch.serializeConta(ch.setGuest());
             HttpContext.Session.SetString(Program.SessionContainerName, contaSerializada);
-            return RedirectToAction("Conta", "Login");
+            return RedirectToAction("Login", "Conta");
         }
 
         [HttpGet]
@@ -50,15 +51,44 @@ namespace CoreSQL.Controllers
         [HttpPost]
         public IActionResult Login(ContaLogin contaLogin)
         {
-            if (contaLogin.Utilizador != "" && contaLogin.Password != "")
+            if (!string.IsNullOrEmpty(contaLogin.Utilizador) && !string.IsNullOrEmpty(contaLogin.Password))
+            {
+                ContaHelper ch = new ContaHelper();
+                Conta cOut = ch.autenticarUser(contaLogin.Utilizador, contaLogin.Password);
+
+                if (cOut != null && cOut.NivelAcesso != "") // Verifica se a conta é válida
+                {
+                    string contaSerializada = ch.serializeConta(cOut);
+                    HttpContext.Session.SetString(Program.SessionContainerName, contaSerializada);
+                    return RedirectToAction("Listar", "Medicamento");
+                }
+            }
+
+            // Se falhar, retornar para a página de login com uma mensagem de erro (opcional)
+            ModelState.AddModelError("", "Utilizador ou password inválidos.");
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Registar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Registar(ContaRegisto contaRegisto)
+        {
+            if (contaRegisto.Utilizador != "" && contaRegisto.Password != "")
             {
                 ContaHelper ch = new ContaHelper();
                 //cOut é um admin nestas condições
-                Conta cOut = ch.authUser(contaLogin.Utilizador, contaLogin.Password);
+                Conta cOut = ch.registarUser(contaRegisto.Utilizador, contaRegisto.Password);
                 string contaSerializada = ch.serializeConta(cOut);
                 HttpContext.Session.SetString(Program.SessionContainerName, contaSerializada);
             }
-            return RedirectToAction("Conta", "Login");
+
+            return RedirectToAction("Login", "Conta");
         }
+
     }
 }
