@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-            @if (!string.IsNullOrEmpty(ViewBag.NivelAcesso))
+            @if (!string.IsNullOrEmpty(ViewBag.ContaAtiva.Utilizador))
             {
                 <h1>AUTENTICADO!!</h1>
             }
@@ -20,7 +20,9 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Ação</th>
+                        <th>Editar?</th>
+                        <th>Apagar?</th>
+                        <th>ID Sistema</th>
                         <th>Nome</th>
                         <th>Frequência</th>
                         <th>Quantidade</th>
@@ -31,7 +33,9 @@
                     @foreach (var med in Model)
                     {
                         <tr>
-                            <td><a href="/Documento/Editar/@med.Guid">Editar</a></td>
+                            <td><a href="/Medicamento/Editar/@med.GuidMedicamento">Editar</a></td>
+                            <td><a href="/Medicamento/Apagar/@med.GuidMedicamento">Apagar</a></td>
+                            <td>@med.GuidMedicamento</td>
                             <td>@med.Nome</td>
                             <td>@med.Frequencia</td>
                             <td>@med.Quantidade</td>

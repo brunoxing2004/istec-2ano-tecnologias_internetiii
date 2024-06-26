@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Lista de Medicamentos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Editar" method="post">
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Frequencia" class="control-label"></label>
+        <input asp-for="Frequencia" class="form-control" />
+        <span asp-validation-for="Frequencia" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantidade" class="control-label"></label>
+        <input asp-for="Quantidade" class="form-control" />
+        <span asp-validation-for="Quantidade" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="UltimoConsumo" class="control-label"></label>
+        <input asp-for="UltimoConsumo" class="form-control" />
+        <span asp-validation-for="UltimoConsumo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Listar">Voltar à lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

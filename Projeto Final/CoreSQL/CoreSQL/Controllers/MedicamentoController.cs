@@ -24,11 +24,12 @@ namespace CoreSQL.Controllers {
 
         public IActionResult Listar(string op)
         {
-            ViewBag.NivelAcesso = "" + HttpContext.Session.GetString("nivelAcesso");
-            //string ligacao = Program.conexaoGlobal;
-            MedicamentoHelper dh = new MedicamentoHelper();
-            string guidUtilizador = ViewBag.NivelAcesso;
-            List<Medicamento> lista = dh.List(guidUtilizador);
+            ViewBag.NivelAcesso = HttpContext.Session.GetString("nivelAcesso");
+            string userSessao = HttpContext.Session.GetString("Utilizador");
+
+            MedicamentoHelper mh = new MedicamentoHelper();
+            List<Medicamento> lista = mh.List(userSessao);
+
             return View(lista);
         }
 
@@ -53,32 +54,33 @@ namespace CoreSQL.Controllers {
             //string ligacao = Program.conexaoGlobal;
             DocumentoHelper dh = new DocumentoHelper();
             dh.save (documento);
-            return RedirectToAction("Listar", "Documento");
-        }
-
-        [HttpGet]
-        public IActionResult Editar(string op) {
-            //string ligacao = Program.conexaoGlobal;
-            if (_conta.NivelAcesso != "")
-            {
-                DocumentoHelper dh = new DocumentoHelper();
-                Documento? doc = dh.get(op);
-                if (doc == null) return RedirectToAction("Listar", "Medicamento");
-                return View(doc);
-            }
             return RedirectToAction("Listar", "Medicamento");
         }
 
-        [HttpPost]
-        public IActionResult Editar(Documento documento)
+        private MedicamentoHelper _medicamentoHelper = new MedicamentoHelper();
+
+        // GET: Medicamento/Editar/{id}
+        public IActionResult Editar(string id)
         {
-            if (_conta.NivelAcesso != "")
+            var medicamento = _medicamentoHelper.Get(id);
+            if (medicamento == null)
             {
-                //string ligacao = Program.conexaoGlobal;
-                DocumentoHelper dh = new DocumentoHelper();
-                dh.save(documento);
+                return NotFound();
             }
-            return RedirectToAction("Listar", "Documento");
+            return View(medicamento);
+        }
+
+        // POST: Medicamento/Editar/{id}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Editar(Medicamento medicamento)
+        {
+            if (ModelState.IsValid)
+            {
+                _medicamentoHelper.Update(medicamento);
+                return RedirectToAction(nameof(Listar));
+            }
+            return View(medicamento);
         }
     }
 }
