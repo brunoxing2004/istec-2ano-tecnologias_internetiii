@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CoreSQL
+build_property.RootNamespace = CoreSQL
+build_property.ProjectDir = E:\GitHub\istec-2ano-tecnologias_internetiii\Projeto Final\Projeto2\CoreSQL\CoreSQL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\GitHub\istec-2ano-tecnologias_internetiii\Projeto Final\Projeto2\CoreSQL\CoreSQL
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Conta/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Documento/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXENyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Documento/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Documento/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRvXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Site/Acerca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxBY2VyY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/GitHub/istec-2ano-tecnologias_internetiii/Projeto Final/Projeto2/CoreSQL/CoreSQL/Views/Site/Contacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxDb250YWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

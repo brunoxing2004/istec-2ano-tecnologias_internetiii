@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\medicamentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\medicamentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\configuracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\configuracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\documentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\views\\medicamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,36 +47,24 @@
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreSQL.csproj|solutionrelative:coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\views\\documento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\documento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coresql\\coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 236,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Configuracao.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\Configuracao.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\Configuracao.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\Configuracao.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\Configuracao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:22:37.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ContaRegisto.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\ContaRegisto.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaRegisto.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Program.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Program.cs",
@@ -95,12 +112,11 @@
               "RelativeToolTip": "CoreSQL\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:38:35.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T22:38:35.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Views\\Medicamento\\Listar.cshtml",
               "RelativeDocumentMoniker": "CoreSQL\\Views\\Medicamento\\Listar.cshtml",
@@ -108,25 +124,24 @@
               "RelativeToolTip": "CoreSQL\\Views\\Medicamento\\Listar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T23:12:38.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T23:12:38.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MedicamentoController.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\MedicamentoController.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Controllers\\MedicamentoController.cs",
-              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\MedicamentoController.cs*",
-              "RelativeToolTip": "CoreSQL\\Controllers\\MedicamentoController.cs*",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB4AAAAqAAAA",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\MedicamentoController.cs",
+              "RelativeToolTip": "CoreSQL\\Controllers\\MedicamentoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T22:36:59.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DocumentoHelper.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\DocumentoHelper.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\DocumentoHelper.cs",
@@ -134,12 +149,11 @@
               "RelativeToolTip": "CoreSQL\\Models\\DocumentoHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:38:16.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T23:38:16.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Medicamento.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\Medicamento.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\Medicamento.cs",
@@ -147,12 +161,11 @@
               "RelativeToolTip": "CoreSQL\\Models\\Medicamento.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:22:11.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T22:22:11.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Documento.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\Documento.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\Documento.cs",
@@ -160,12 +173,11 @@
               "RelativeToolTip": "CoreSQL\\Models\\Documento.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:10:27.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T23:10:27.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CoreSQL\\Views\\Shared\\_Layout.cshtml",
@@ -173,31 +185,17 @@
               "RelativeToolTip": "CoreSQL\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T23:00:32.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T23:00:32.011Z"
             }
           ]
         },
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContaController.cs",
-              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\ContaController.cs",
-              "RelativeDocumentMoniker": "CoreSQL\\Controllers\\ContaController.cs",
-              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\ContaController.cs",
-              "RelativeToolTip": "CoreSQL\\Controllers\\ContaController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwD4AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:53:28.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ContaLogin.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\ContaLogin.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaLogin.cs",
@@ -216,14 +214,14 @@
               "RelativeDocumentMoniker": "CoreSQL\\Models\\MedicamentoHelper.cs",
               "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\MedicamentoHelper.cs",
               "RelativeToolTip": "CoreSQL\\Models\\MedicamentoHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T22:24:22.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ContaHelper.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\ContaHelper.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaHelper.cs",
@@ -236,16 +234,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "DocumentoController.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\DocumentoController.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Controllers\\DocumentoController.cs",
               "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\DocumentoController.cs",
               "RelativeToolTip": "CoreSQL\\Controllers\\DocumentoController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCoAAAArAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwCoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T22:54:46.605Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContaController.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\ContaController.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Controllers\\ContaController.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Controllers\\ContaController.cs",
+              "RelativeToolTip": "CoreSQL\\Controllers\\ContaController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwD4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:53:28.436Z"
             },
             {
               "$type": "Document",
@@ -257,12 +267,11 @@
               "RelativeToolTip": "CoreSQL\\Views\\Documento\\Listar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T22:17:40.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T22:17:40.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Conta.cs",
               "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "CoreSQL\\Models\\Conta.cs",
@@ -270,8 +279,7 @@
               "RelativeToolTip": "CoreSQL\\Models\\Conta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:20:52.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T18:20:52.148Z"
             }
           ]
         }
