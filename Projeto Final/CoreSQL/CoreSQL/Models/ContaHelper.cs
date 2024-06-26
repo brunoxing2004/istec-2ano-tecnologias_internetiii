@@ -42,7 +42,8 @@ namespace CoreSQL.Models
                                     return new Conta
                                     {
                                         Guid = guidValidado,
-                                        NivelAcesso = guidValidado
+                                        NivelAcesso = guidValidado,
+                                        Utilizador = login
                                     };
                                 }
                             }

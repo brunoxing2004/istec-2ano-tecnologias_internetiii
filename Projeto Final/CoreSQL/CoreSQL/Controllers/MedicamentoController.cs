@@ -27,8 +27,8 @@ namespace CoreSQL.Controllers {
             ViewBag.NivelAcesso = "" + HttpContext.Session.GetString("nivelAcesso");
             //string ligacao = Program.conexaoGlobal;
             MedicamentoHelper dh = new MedicamentoHelper();
-            string guid = ViewBag.NivelAcesso;
-            List<Medicamento> lista = dh.List(guid);
+            string guidUtilizador = ViewBag.NivelAcesso;
+            List<Medicamento> lista = dh.List(guidUtilizador);
             return View(lista);
         }
 

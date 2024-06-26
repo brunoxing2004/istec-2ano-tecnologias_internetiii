@@ -9,7 +9,7 @@ namespace CoreSQL.Models
     {
         private readonly string ConectorHerdado1 = "Data Source=DESKTOP-BRUNOPC\\SQLEXPRESS;Initial Catalog=MedicacaoRegisto;User ID=dbuser;Password=dbuser;TrustServerCertificate=true;";
 
-        public List<Medicamento> List(string guid)
+        public List<Medicamento> List(string utilizador)
         {
             DataTable meds = new DataTable();
             List<Medicamento> outList = new List<Medicamento>();
@@ -20,10 +20,10 @@ namespace CoreSQL.Models
             {
                 try
                 {
-                    using (SqlCommand comando = new SqlCommand("SELECT * FROM tMedicacao WHERE guid = @guid", conexao))
+                    using (SqlCommand comando = new SqlCommand("SELECT * FROM tMedicacao WHERE utilizador = @utilizador", conexao))
                     {
                         comando.CommandType = CommandType.Text;
-                        comando.Parameters.AddWithValue("@guid", guid);
+                        comando.Parameters.AddWithValue("@utilizador", utilizador);
 
                         using (SqlDataAdapter telefone = new SqlDataAdapter(comando))
                         {
@@ -42,7 +42,6 @@ namespace CoreSQL.Models
             {
                 Medicamento med = new Medicamento
                 {
-                    Guid = linhamed["guid"].ToString(),
                     Nome = linhamed["nome"].ToString(),
                     Frequencia = Convert.ToByte(linhamed["frequencia"]),
                     Quantidade = Convert.ToByte(linhamed["quantidade"]),

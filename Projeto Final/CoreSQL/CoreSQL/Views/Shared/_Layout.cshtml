@@ -38,7 +38,7 @@
         <a href="#medicacao">Medicação</a>
         @if (!string.IsNullOrEmpty(ViewBag.ContaAtiva?.NivelAcesso))
         {
-            <a href="/Conta/Logout">Logout (@ViewBag.ContaAtiva.NivelAcesso)</a>
+            <a href="/Conta/Logout">Logout (@ViewBag.ContaAtiva.Utilizador)</a>
         }
         else
         {
