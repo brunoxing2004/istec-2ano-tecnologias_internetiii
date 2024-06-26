@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json~RF35405f54.TMP" />
+    <None Remove="Views\Medicamento\Listar - Cópia.cshtml.2DEL" />
+    <None Remove="Views\Medicamento\Listar.cshtml.2DEL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Medicamento\Editar.cshtml.2DEL" />
+    <Content Include="Views\Medicamento\Listar.cshtml.2DEL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Medicamento\Editar.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
