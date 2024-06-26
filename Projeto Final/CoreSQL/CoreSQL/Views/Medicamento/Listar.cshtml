@@ -7,25 +7,39 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            @foreach (var med in @Model)
-            {
-            <tr>
-            @*<td><a href="/Documento/Editar/@doc.Uid">Editar</a></td>*@
-                    <td>@med.Nome</td>
-                    <td>@med.Frequencia</td>
-                    <td>@med.quantidade</td>
-                    <td>@med.ultimoConsumo</td>
-            </tr>
 
-                @if (ViewBag.ContaAtiva.NivelAcesso > 0)
-                {
-                    <h1>AUTENTICADO!!</h1>
-                }
-                else
-                {
-                    <h2>ANÓNIMO!!</h2>
-                }
+            @if (!string.IsNullOrEmpty(ViewBag.NivelAcesso))
+            {
+                <h1>AUTENTICADO!!</h1>
             }
+            else
+            {
+                <h2>ANÓNIMO!!</h2>
+            }
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Ação</th>
+                        <th>Nome</th>
+                        <th>Frequência</th>
+                        <th>Quantidade</th>
+                        <th>Último Consumo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var med in Model)
+                    {
+                        <tr>
+                            <td><a href="/Documento/Editar/@med.Guid">Editar</a></td>
+                            <td>@med.Nome</td>
+                            <td>@med.Frequencia</td>
+                            <td>@med.Quantidade</td>
+                            <td>@med.UltimoConsumo.ToString("dd/mm/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

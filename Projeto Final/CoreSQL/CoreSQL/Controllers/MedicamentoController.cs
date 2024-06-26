@@ -28,11 +28,9 @@ namespace CoreSQL.Controllers {
             //string ligacao = Program.conexaoGlobal;
             MedicamentoHelper dh = new MedicamentoHelper();
             string guid = ViewBag.NivelAcesso;
-            List<Medicamento> lista = dh.list(guid);
+            List<Medicamento> lista = dh.List(guid);
             return View(lista);
         }
-
-
 
 
 
