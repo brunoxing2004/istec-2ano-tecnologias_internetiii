@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\controllers\\sitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\sitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\medicamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\medicamento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\medicamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\medicamento\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\conta\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\conta\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\conta\\registar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\conta\\registar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contaregisto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\helperbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\helperbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\contahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\medicamentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\medicamentohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\models\\configuracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\models\\configuracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|e:\\github\\istec-2ano-tecnologias_internetiii\\projeto final\\coremedicacao\\coresql\\views\\medicamento\\editar.cshtml.2del||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B360F64D-B22D-472B-9107-AFEBB5A22E93}|CoreSQL\\CoreMedicacao.csproj|solutionrelative:coresql\\views\\medicamento\\editar.cshtml.2del||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SiteController.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\SiteController.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Controllers\\SiteController.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\SiteController.cs",
+              "RelativeToolTip": "CoreSQL\\Controllers\\SiteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T22:51:43.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Editar.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Medicamento\\Editar.cshtml",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Editar.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Medicamento\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T17:07:14.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicamentoController.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\MedicamentoController.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Controllers\\MedicamentoController.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\MedicamentoController.cs",
+              "RelativeToolTip": "CoreSQL\\Controllers\\MedicamentoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEwAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:36:59.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Conta\\Login.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Conta\\Login.cshtml",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Conta\\Login.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Conta\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T21:15:57.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:00:32.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContaRegisto.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaRegisto.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaRegisto.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaRegisto.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\ContaRegisto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:46:06.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HelperBase.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\HelperBase.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\HelperBase.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\HelperBase.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\HelperBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:45:16.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Medicamento.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Medicamento.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\Medicamento.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Medicamento.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\Medicamento.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAACkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:22:11.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Configuracao.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Configuracao.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\Configuracao.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Configuracao.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\Configuracao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:22:37.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Program.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Program.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Program.cs",
+              "RelativeToolTip": "CoreSQL\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwBwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:38:35.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Editar.cshtml.2DEL",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Editar.cshtml.2DEL",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Medicamento\\Editar.cshtml.2DEL",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Editar.cshtml.2DEL",
+              "RelativeToolTip": "CoreSQL\\Views\\Medicamento\\Editar.cshtml.2DEL",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-26T20:45:30.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 172,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContaLogin.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaLogin.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaLogin.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaLogin.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\ContaLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:37:26.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Registar.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Conta\\Registar.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Conta\\Registar.cshtml",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Conta\\Registar.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Conta\\Registar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T22:22:50.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Listar.cshtml",
+              "RelativeDocumentMoniker": "CoreSQL\\Views\\Medicamento\\Listar.cshtml",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Views\\Medicamento\\Listar.cshtml",
+              "RelativeToolTip": "CoreSQL\\Views\\Medicamento\\Listar.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:12:38.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContaController.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\ContaController.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Controllers\\ContaController.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Controllers\\ContaController.cs",
+              "RelativeToolTip": "CoreSQL\\Controllers\\ContaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:53:28.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContaHelper.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaHelper.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\ContaHelper.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\ContaHelper.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\ContaHelper.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowGAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:23:45.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicamentoHelper.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\MedicamentoHelper.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\MedicamentoHelper.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\MedicamentoHelper.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\MedicamentoHelper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAIUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:24:22.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Conta.cs",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Conta.cs",
+              "RelativeDocumentMoniker": "CoreSQL\\Models\\Conta.cs",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\Models\\Conta.cs",
+              "RelativeToolTip": "CoreSQL\\Models\\Conta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:20:52.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreSQL\\appsettings.json",
+              "ToolTip": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\appsettings.json",
+              "RelativeToolTip": "CoreSQL\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T22:34:10.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
