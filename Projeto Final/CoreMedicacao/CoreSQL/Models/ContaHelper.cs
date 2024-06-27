@@ -51,8 +51,8 @@ namespace CoreSQL.Models
                     }
                     catch (Exception ex)
                     {
-                        // Log or handle the exception as needed
-                        throw new ApplicationException("Erro ao autenticar o usuário", ex);
+                        
+                        throw new ApplicationException("Erro ao autenticar o user", ex);
                     }
                 }
             }
@@ -89,13 +89,13 @@ namespace CoreSQL.Models
                         }
                         else
                         {
-                            throw new ApplicationException("Erro ao registrar o usuário. Nenhuma linha foi afetada.");
+                            throw new ApplicationException("Erro ao registrar o user. Nenhuma linha foi afetada.");
                         }
                     }
                     catch (Exception ex)
                     {
-                        // Log or handle the exception as needed
-                        throw new ApplicationException("Erro ao registrar o usuário", ex);
+                        
+                        throw new ApplicationException("Erro ao registrar o user", ex);
                     }
                     finally
                     {

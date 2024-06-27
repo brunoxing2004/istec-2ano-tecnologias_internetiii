@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
 namespace CoreSQL.Models
@@ -14,9 +15,9 @@ namespace CoreSQL.Models
             DataTable meds = new DataTable();
             List<Medicamento> outList = new List<Medicamento>();
 
-            string connectionString = ConectorHerdado1;
+            string _connectionString = ConectorHerdado1;
 
-            using (SqlConnection conexao = new SqlConnection(connectionString))
+            using (SqlConnection conexao = new SqlConnection(_connectionString))
             {
                 try
                 {
@@ -59,9 +60,9 @@ namespace CoreSQL.Models
             DataTable meds = new DataTable();
             Medicamento? med = null;
 
-            string connectionString = ConectorHerdado1;
+            string _connectionString = ConectorHerdado1;
 
-            using (SqlConnection conexao = new SqlConnection(connectionString))
+            using (SqlConnection conexao = new SqlConnection(_connectionString))
             {
                 try
                 {
@@ -99,37 +100,49 @@ namespace CoreSQL.Models
             return med;
         }
 
-        public void Update(Medicamento medicamento)
+        public void save(Medicamento medicamento)
         {
-            string connectionString = ConectorHerdado1;
-
-            using (SqlConnection conexao = new SqlConnection(connectionString))
+            string _connectionString = ConectorHerdado1;
+            using (SqlConnection conexao = new SqlConnection(_connectionString))
             {
-                try
-                {
-                    string query = "UPDATE tMedicacao SET nome = @Nome, frequencia = @Frequencia, quantidade = @Quantidade, ultimoConsumo = @UltimoConsumo WHERE guidMedicamento = @GuidMedicamento";
-                    using (SqlCommand comando = new SqlCommand(query, conexao))
-                    {
-                        comando.Parameters.AddWithValue("@GuidMedicamento", medicamento.GuidMedicamento);
-                        comando.Parameters.AddWithValue("@Nome", medicamento.Nome);
-                        comando.Parameters.AddWithValue("@Frequencia", medicamento.Frequencia);
-                        comando.Parameters.AddWithValue("@Quantidade", medicamento.Quantidade);
-                        comando.Parameters.AddWithValue("@UltimoConsumo", medicamento.UltimoConsumo);
+                SqlCommand comando = new SqlCommand();
+                comando.Connection = conexao;
+                comando.CommandType = CommandType.Text;
 
-                        conexao.Open();
-                        comando.ExecuteNonQuery();
-                    }
-                }
-                catch (Exception ex)
+                DateTime ultimoConsumo = medicamento.UltimoConsumo;
+
+                if (string.IsNullOrEmpty(medicamento.GuidMedicamento))
                 {
-                    throw new Exception("Erro ao atualizar dados.", ex);
+                    // Generate new GUID for the new Medicamento
+                    //medicamento.GuidMedicamento = Guid.NewGuid().ToString();
+
+                    comando.CommandText = "INSERT INTO tMedicacao (nome, frequencia, quantidade, ultimoConsumo) " +
+                        "VALUES (@nome, @frequencia, @quantidade, @ultimoConsumo)";
+                    //comando.Parameters.AddWithValue("@guidMedicamento", medicamento.GuidMedicamento);
                 }
+                else
+                {
+                    comando.CommandText = "UPDATE tMedicacao " +
+                        "SET nome = @nome, " +
+                        "frequencia = @frequencia, " +
+                        "quantidade = @quantidade, " +
+                        "ultimoConsumo = @ultimoConsumo " +
+                        "WHERE guidMedicamento = @guidMedicamento";
+                    comando.Parameters.AddWithValue("@guidMedicamento", medicamento.GuidMedicamento);
+                }
+
+                // Add parameters common to both INSERT and UPDATE operations
+                comando.Parameters.AddWithValue("@nome", medicamento.Nome);
+                comando.Parameters.AddWithValue("@frequencia", Convert.ToInt32(medicamento.Frequencia));
+                comando.Parameters.AddWithValue("@quantidade", Convert.ToInt32(medicamento.Quantidade));
+                comando.Parameters.AddWithValue("@ultimoConsumo", ultimoConsumo);
+
+                conexao.Open();
+                comando.ExecuteNonQuery();
+                conexao.Close();
             }
         }
 
 
-
     }
-
-
 }

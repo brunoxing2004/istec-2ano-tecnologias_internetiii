@@ -1,6 +1,7 @@
 ﻿using CoreSQL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace CoreSQL.Controllers {
     public class MedicamentoController : Controller {
@@ -26,6 +27,7 @@ namespace CoreSQL.Controllers {
         {
             ViewBag.NivelAcesso = HttpContext.Session.GetString("nivelAcesso");
             string userSessao = HttpContext.Session.GetString("Utilizador");
+            
 
             MedicamentoHelper mh = new MedicamentoHelper();
             List<Medicamento> lista = mh.List(userSessao);
@@ -49,30 +51,38 @@ namespace CoreSQL.Controllers {
             return View();
         }
 
-        private MedicamentoHelper _medicamentoHelper = new MedicamentoHelper();
+        
 
-        // GET: Medicamento/Editar/{id}
-        public IActionResult Editar(string id)
+        [HttpGet]
+        public IActionResult Editar(string op)
         {
-            var medicamento = _medicamentoHelper.Get(id);
-            if (medicamento == null)
+            if (_conta.NivelAcesso != null || _conta.NivelAcesso != "")
             {
-                return NotFound();
+                MedicamentoHelper mh = new MedicamentoHelper();
+                Medicamento? med = mh.Get(op);
+                if (med == null) RedirectToAction("Listar", "Medicamento");
+                return View(med);
             }
-            return View(medicamento);
+            return RedirectToAction("Login", "Conta");
+
         }
 
-        // POST: Medicamento/Editar/{id}
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Editar(Medicamento medicamento)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _medicamentoHelper.Update(medicamento);
-                return RedirectToAction(nameof(Listar));
+                MedicamentoHelper mh = new MedicamentoHelper();
+                mh.save(medicamento);
+                return RedirectToAction("Listar", "Medicamento"); // Redirect to the list view after saving
             }
-            return View(medicamento);
+            catch (Exception ex)
+            {
+                // Log exception
+                return StatusCode(500, "Internal server error");
+            }
         }
+
+        
     }
 }

@@ -25,7 +25,7 @@ internal class Program {
         app.MapControllerRoute(
            name: "default",
            pattern: "{controller=Conta}/{action=Login}/{op?}"
-       );
+        );
         app.Run();
     }
 }

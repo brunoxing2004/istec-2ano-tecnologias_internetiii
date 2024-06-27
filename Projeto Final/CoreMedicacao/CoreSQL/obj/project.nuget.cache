@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FjNI3n9/N8M=",
+  "dgSpecHash": "/DuEvQ80zgU=",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreSQL\\CoreSQL\\CoreMedicacao.csproj",
+  "projectFilePath": "E:\\GitHub\\istec-2ano-tecnologias_internetiii\\Projeto Final\\CoreMedicacao\\CoreSQL\\CoreMedicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

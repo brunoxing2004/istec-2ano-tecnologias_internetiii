@@ -64,7 +64,7 @@ namespace CoreSQL.Controllers
                 }
             }
 
-            // Se falhar, retornar para a página de login com uma mensagem de erro (opcional)
+            // Se falhar, retornar para a página de login com uma mensagem de erro
             ModelState.AddModelError("", "Utilizador ou password inválidos.");
             return View();
         }
