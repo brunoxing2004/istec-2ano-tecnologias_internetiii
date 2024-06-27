@@ -74,7 +74,7 @@ namespace CoreSQL.Controllers {
             {
                 MedicamentoHelper mh = new MedicamentoHelper();
                 mh.save(medicamento);
-                return RedirectToAction("Listar", "Medicamento"); // Redirect to the list view after saving
+                return RedirectToAction("Listar", "Medicamento"); // Redireciona para a lista após executar
             }
             catch (Exception ex)
             {

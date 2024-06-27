@@ -113,7 +113,7 @@ namespace CoreSQL.Models
 
                 if (string.IsNullOrEmpty(medicamento.GuidMedicamento))
                 {
-                    // Generate new GUID for the new Medicamento
+                    
                     //medicamento.GuidMedicamento = Guid.NewGuid().ToString();
 
                     comando.CommandText = "INSERT INTO tMedicacao (nome, frequencia, quantidade, ultimoConsumo) " +
@@ -131,7 +131,7 @@ namespace CoreSQL.Models
                     comando.Parameters.AddWithValue("@guidMedicamento", medicamento.GuidMedicamento);
                 }
 
-                // Add parameters common to both INSERT and UPDATE operations
+                
                 comando.Parameters.AddWithValue("@nome", medicamento.Nome);
                 comando.Parameters.AddWithValue("@frequencia", Convert.ToInt32(medicamento.Frequencia));
                 comando.Parameters.AddWithValue("@quantidade", Convert.ToInt32(medicamento.Quantidade));
