@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreMedicacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c20a2d36ed7abd3a31db7d206d838f761b9fa99c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94357a515b711e3f35e6d10e0dffb43c01fab92c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreMedicacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreMedicacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
